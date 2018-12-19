@@ -16,11 +16,11 @@
 :: ****************************************************************************
 echo "=== start to deploy pom... ==="
 
-call mvn org.apache.maven.plugins:maven-deploy-plugin:3.0.0-M1:deploy-file -X ^
+call mvn deploy:deploy-file -N -X ^
     -Durl=file:///D:/0sync-local/git/repository ^
     -DrepositoryId=git-repo ^
-    -Dfile=./apollo-0.10.3-SNAPSHOT.pom ^
-    -DpomFile=./apollo-0.10.3-SNAPSHOT.pom ^
+    -Dfile=./pom.xml ^
+    -DpomFile=./pom.xml ^
     -Dpackaging=pom
 
 echo "=== deploy pom finished ... ==="
