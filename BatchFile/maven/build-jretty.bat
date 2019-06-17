@@ -13,7 +13,7 @@ if [%1]==[--help] goto HELP
 if [%1]==[install] goto INSTALL
 if [%1]==[deploy] goto DEPLOY
 if [%1]==[testdp] goto TESTDP
-goto EOF
+goto HELP
 :: ****************************************************************************
 :: Title :  xxxxx                                                        
 :: 
