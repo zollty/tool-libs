@@ -1,0 +1,69 @@
+{
+  "title": "surprise",
+  "synonyms": [
+    "startle",
+    "amaze",
+    "stun",
+    "astonish",
+    "take somebody aback",
+    "astound"
+  ],
+  "description": "These words all mean to make somebody feel surprised.",
+  "definitions": [
+    {
+      "term": "surprise",
+      "definition": "to give somebody the feeling that you get when something happens that you do not expect or do not understand, or something that you do expect does not happen; to make somebody feel surprised:",
+      "examples": [
+        {
+          "en": "The outcome didn’t surprise me at all.",
+          "cn": "这一结果完全在我的意料之中。"
+        }
+      ]
+    },
+    {
+      "term": "startle",
+      "definition": "to surprise somebody suddenly in a way that slightly shocks or frightens them:",
+      "examples": [
+        {
+          "en": "Sorry, I didn’t mean to startle you.",
+          "cn": "抱歉，我不是故意吓你一跳的。"
+        },
+        {
+          "en": "The explosion startled the horse.",
+          "cn": "爆炸声使马受了惊。"
+        }
+      ]
+    },
+    {
+      "term": "amaze",
+      "definition": "to surprise somebody very much:",
+      "examples": [
+        {
+          "en": "Just the huge size of the place amazed her.",
+          "cn": "仅仅地方之大就使她十分惊奇。"
+        }
+      ]
+    },
+    {
+      "term": "stun",
+      "definition": "(rather informal) (often in newspapers) to surprise or shock somebody so much that they cannot think clearly or speak"
+    },
+    {
+      "term": "astonish",
+      "definition": "to surprise somebody very much:",
+      "examples": [
+        {
+          "en": "The news astonished everyone.",
+          "cn": "这消息使大家十分惊讶。"
+        }
+      ]
+    }
+  ],
+  "patterns": [
+    "It surprises somebody/startles somebody/amazes somebody/stuns somebody/astonishes somebody/takes somebody aback/astounds somebody",
+    "to surprise/startle/amaze/stun/astonish/astound somebody that…",
+    "to surprise/amaze somebody what/how…",
+    "to surprise/startle/amaze/stun/astonish/astound somebody to know/find/learn/see/hear…",
+    "to be surprised/startled/stunned into (doing) something"
+  ]
+}

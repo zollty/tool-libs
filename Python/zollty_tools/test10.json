@@ -1,0 +1,339 @@
+[
+  {
+    "id": "false",
+    "word": "false",
+    "pos": "adjective",
+    "oxford_levels": [
+      {
+        "dictionary": "ox3000",
+        "level": "a1"
+      },
+      {
+        "dictionary": "ox3000",
+        "level": "a2"
+      }
+    ],
+    "phonetics": {
+      "am": "/fɔːls/",
+      "am_audio": "false__us_1.mp3"
+    },
+    "word_family": [],
+    "senses": [
+      {
+        "oxford_levels": [
+          {
+            "dictionary": "ox3000",
+            "level": "a1"
+          }
+        ],
+        "definition": "wrong; not correct or true",
+        "definition_cn": "错误的；不正确的；不真实的",
+        "id": "false_sng_1",
+        "examples": [
+          {
+            "en": "A whale is a fish. True or false?",
+            "cn": "鲸鱼是鱼，对还是错？",
+            "am_audio": "_false__uss_1.mp3"
+          },
+          {
+            "en": "Predictions of an early improvement in the housing market proved false.",
+            "cn": "认为房屋市场很快就好转的预测结果证明是错误的。",
+            "am_audio": "_false__uss_3.mp3"
+          },
+          {
+            "en": "She gave false information to the insurance company.",
+            "cn": "她向保险公司提供了不真实的资料。",
+            "am_audio": "_false__ams_3.mp3"
+          },
+          {
+            "en": "He used a false name to get the job.",
+            "cn": "他用假名得到了这份工作。",
+            "am_audio": "_false__ams_4.mp3"
+          },
+          {
+            "en": "His career was ruined by false accusations.",
+            "cn": "他的事业被虚假的指控毁了。"
+          },
+          {
+            "en": "The allegations are completely false.",
+            "cn": "这些指控完全是假的。"
+          },
+          {
+            "en": "This claim is simply false.",
+            "cn": "这一说法是完全错误的。"
+          },
+          {
+            "en": "The law can punish knowingly false statements.",
+            "cn": "这项法律可对故意作出的虚假陈述施加惩罚。"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Lagos is the capital of Nigeria. True or false?",
+            "cn": "拉各斯是尼日利亚的首都，对还是错？"
+          },
+          {
+            "en": "The gossip about her later proved to be entirely false.",
+            "cn": "后来证明有关她的传言都是假的。"
+          },
+          {
+            "en": "Their claim was patently false.",
+            "cn": "他们说的显然是不实之词。"
+          }
+        ],
+        "collocations": {
+          "verbs": [
+            "be",
+            "look",
+            "prove",
+            "…"
+          ],
+          "adverb": [
+            "absolutely",
+            "completely",
+            "entirely",
+            "…"
+          ],
+          "phrases": [
+            "true or false"
+          ]
+        }
+      },
+      {
+        "oxford_levels": [
+          {
+            "dictionary": "ox3000",
+            "level": "a2"
+          }
+        ],
+        "definition": "not natural",
+        "definition_cn": "非天生的；人造的；假的",
+        "id": "false_sng_2",
+        "examples": [
+          {
+            "en": "false teeth/eyelashes",
+            "cn": "假牙；假睫毛"
+          },
+          {
+            "en": "a false beard",
+            "cn": "假胡子"
+          }
+        ],
+        "synonym": [
+          {
+            "title": "artificial",
+            "entry": "artificial"
+          }
+        ]
+      },
+      {
+        "oxford_levels": [
+          {
+            "dictionary": "ox3000",
+            "level": "a2"
+          }
+        ],
+        "definition": "not real or what somebody claims it is, but made to look real to cheat people",
+        "definition_cn": "假的；伪造的",
+        "id": "false_sng_3",
+        "examples": [
+          {
+            "en": "He had been travelling with a false passport.",
+            "cn": "他一直用假护照旅行。"
+          },
+          {
+            "en": "The case had a false bottom where documents or even a small radio could be hidden.",
+            "cn": "那箱子有个假底，里面能够藏文件，甚至藏个小收音机。"
+          }
+        ],
+        "collocations": {
+          "verbs": [
+            "be",
+            "look",
+            "prove",
+            "…"
+          ],
+          "adverb": [
+            "absolutely",
+            "completely",
+            "entirely",
+            "…"
+          ],
+          "phrases": [
+            "true or false"
+          ]
+        }
+      },
+      {
+        "oxford_levels": [
+          {
+            "dictionary": "ox3000",
+            "level": "a2"
+          }
+        ],
+        "grammar": "[usually before noun]",
+        "definition": "wrong or not accurate, because it is based on something that is not true or correct",
+        "definition_cn": "错误的",
+        "id": "false_sng_5",
+        "examples": [
+          {
+            "en": "a false argument/assumption/belief",
+            "cn": "错误的论据／假设／信念"
+          },
+          {
+            "en": "to give a false impression of wealth",
+            "cn": "给人以富有的错觉"
+          },
+          {
+            "en": "to lull somebody into a false sense of security (= make somebody feel safe when they are really in danger)",
+            "cn": "哄某人产生虚假的安全感"
+          },
+          {
+            "en": "They didn't want to raise any false hopes, but they believed her husband had escaped capture.",
+            "cn": "他们并不想让人心存奢望，但是他们相信她的丈夫已逃脱追捕。",
+            "am_audio": "_false__uss_2.mp3"
+          },
+          {
+            "en": "Buying a cheap computer is a false economy (= will not actually save you money).",
+            "cn": "买廉价计算机看似省钱，但其实并不划算。",
+            "am_audio": "_false__uss_4.mp3"
+          },
+          {
+            "en": "If you don't do the test right, it can lead to false positives.",
+            "cn": "如果测试做得不对，会导致误报。"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "We had been lulled into a false sense of security.",
+            "cn": "我们受到麻痹，产生了虚假的安全感。"
+          },
+          {
+            "en": "The couple had given the false impression of a blissfully happy marriage."
+          },
+          {
+            "en": "His argument is based on the false assumption that all women want children."
+          },
+          {
+            "en": "I don't want to raise any false hopes, but I think he's still alive.",
+            "cn": "我并不想让人心存奢望，但是我相信他还活着。"
+          },
+          {
+            "en": "Those who were thought to hold false beliefs were persecuted."
+          }
+        ]
+      },
+      {
+        "phrase": "of people’s behaviour",
+        "phrase_cn": "人的行为",
+        "definition": "not real or sincere",
+        "definition_cn": "表里不一的；不真诚的",
+        "id": "false_sng_4",
+        "topics": [
+          "@topic_personal-qualities_level=b2"
+        ],
+        "examples": [
+          {
+            "en": "false modesty",
+            "cn": "假谦虚"
+          },
+          {
+            "en": "She flashed him a false smile of congratulation.",
+            "cn": "她向他虚情假意地微微一笑表示祝贺。",
+            "am_audio": "_false__ams_5.mp3"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Helen's voice sounded slightly false.",
+            "cn": "海伦的声音听上去稍有些造作。"
+          },
+          {
+            "en": "She managed a horribly false smile.",
+            "cn": "她挤出一脸的假笑。"
+          },
+          {
+            "en": "She gave a tinkly little laugh, which sounded horribly false even to her own ears.",
+            "cn": "她发出银铃般的轻笑，连她自己听着都觉得假极了。"
+          },
+          {
+            "en": "Come on—this is no time for false modesty.",
+            "cn": "快点！这不是假谦虚的时候。"
+          }
+        ],
+        "collocations": {
+          "verbs": [
+            "be",
+            "ring",
+            "sound",
+            "…"
+          ],
+          "adverb": [
+            "very",
+            "slightly"
+          ]
+        }
+      },
+      {
+        "labels": [
+          "(literary)"
+        ],
+        "definition": "not faithful",
+        "definition_cn": "不忠实的；不忠诚的",
+        "phrase": "of people",
+        "phrase_cn": "人",
+        "id": "false_sng_6",
+        "examples": [
+          {
+            "en": "a false lover",
+            "cn": "不忠诚的情人"
+          }
+        ]
+      }
+    ],
+    "idioms": [
+      {
+        "phrase": "by/under/on false pretences",
+        "senses": [
+          {
+            "definition": "by pretending to be something that you are not, in order to gain some advantage for yourself",
+            "definition_cn": "靠欺诈手段；以虚假的借口",
+            "id": "false_sng_8",
+            "examples": [
+              {
+                "en": "She was accused of obtaining money under false pretences.",
+                "cn": "她被控诈骗钱财。",
+                "am_audio": "_false__ams_7.mp3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "ring true/hollow/false",
+        "senses": [
+          {
+            "definition": "to give the impression of being sincere/true or not sincere/true",
+            "definition_cn": "给人以真实（或空洞、虚假）的印象",
+            "id": "ring_sng_1",
+            "examples": [
+              {
+                "en": "It may seem a strange story but it rings true to me.",
+                "cn": "这个故事也许显得离奇，但我却觉得很真实。",
+                "am_audio": "_ring__ams_25.mp3"
+              },
+              {
+                "en": "His expressions of support rang rather hollow.",
+                "cn": "他支持的表情听起来相当空洞。"
+              },
+              {
+                "en": "His promise rang hollow.",
+                "cn": "他的诺言听起来很空洞。"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -238,8 +238,29 @@ def parse_sense_header(sense_li):
                 header['definition_cn'] = clean_text(chn_tag.get_text())
                 break
 
-    if header['definition'] and header['definition_cn']:
-        header['definition'] = header['definition'].replace(header['definition_cn'], '')
+    if header.get('definition') and header.get('definition_cn'):
+        header['definition'] = header['definition'].replace(header['definition_cn'], '').strip()
+
+    # 6. 处理不在 sensetop 内部的 dis-g（词义限定语）
+    for dis_g in sense_li.find_all('span', class_='dis-g', recursive=False):
+        # 跳过在 sensetop 内部的（已由 _extract_phrase_cn 处理为 phrase）
+        if dis_g.find_parent('span', class_='sensetop'):
+            continue
+        # 提取英文
+        dtxt_tag = dis_g.find('span', class_='dtxt')
+        dis_g_en = clean_text(dtxt_tag.get_text()) if dtxt_tag else clean_text(dis_g.get_text())
+        # 提取中文
+        dis_g_cn = None
+        dis_gt = dis_g.find('dis-gt')
+        if dis_gt:
+            chn_tag = dis_gt.find('chn')
+            if chn_tag:
+                dis_g_cn = clean_text(chn_tag.get_text())
+        # 作为 phrase/phrase_cn（如果还没有 phrase）
+        if dis_g_en and 'phrase' not in header:
+            header['phrase'] = dis_g_en
+        if dis_g_cn:
+            header['phrase_cn'] = dis_g_cn
 
     return header
 

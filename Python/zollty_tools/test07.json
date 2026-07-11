@@ -67,5 +67,37 @@
         ]
       }
     ]
+  },
+  {
+    "id": "astonish",
+    "word": "astonish",
+    "pos": "verb",
+    "phonetics": {
+      "am": "/əˈstɑːnɪʃ/",
+      "am_audio": "astonish__us_1.mp3"
+    },
+    "word_family": [],
+    "senses": [
+      {
+        "definition": "to surprise somebody very much",
+        "definition_cn": "使十分惊讶；使大为惊奇；使吃惊",
+        "id": "astonish_sng_1",
+        "topics": [
+          "@topic_feelings_level=b2"
+        ],
+        "examples": [
+          {
+            "cn": "这一结果完全在我的意料之中。"
+          }
+        ],
+        "synonyms": "surprise",
+        "synonym": [
+          {
+            "title": "amaze",
+            "entry": "amaze"
+          }
+        ]
+      }
+    ]
   }
 ]
