@@ -1,0 +1,10 @@
+# 自动检测文本文件，并强制在检出时转换为 LF（推荐）
+* text=auto eol=lf
+
+# 或者针对特定类型文件明确指定
+*.txt text eol=lf
+*.js  text eol=lf
+*.py  text eol=lf
+
+# 对于 Windows 批处理等必须用 CRLF 的文件，单独指定
+*.bat text eol=crlf

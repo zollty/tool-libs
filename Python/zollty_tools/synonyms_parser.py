@@ -101,11 +101,19 @@ def _parse_synonyms_body(body, clean_text):
                 def_item['labels'] = clean_text(labels.get_text())
 
             # undt 标签（中文翻译，在 dd 同级；BeautifulSoup 标签名转小写）
+            definition_cn = ""
             undt = li.find('undt')
             if undt:
                 chn_tag = undt.find('chn')
                 if chn_tag:
-                    def_item['definition_cn'] = clean_text(chn_tag.get_text())
+                    definition_cn = clean_text(chn_tag.get_text())
+
+            # 从 definition 中剔除 definition_cn
+            if definition_cn and 'definition' in def_item:
+                def_item['definition'] = def_item['definition'].replace(definition_cn, '').strip()
+
+            if definition_cn:
+                def_item['definition_cn'] = definition_cn
 
             if def_item:
                 definitions.append(def_item)
