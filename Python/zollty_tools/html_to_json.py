@@ -106,12 +106,42 @@ def parse_sense_header(sense_li):
     # 2. 标签/领域标注（labels，如 grammar语法、music音乐）
     labels = []
 
-    # 从 div.variants 提取 labels（如果内部包含 span.labels）
+    # 从 div.variants 提取 labels（如果内部包含 span.labels），格式: (also {tags} → {variant})
     for variants_tag in sense_li.find_all('div', class_='variants'):
-        if variants_tag.find('span', class_='labels'):
-            label_text = clean_text(variants_tag.get_text())
-            if label_text:
-                labels.append(label_text)
+        if not variants_tag.find('span', class_='labels'):
+            continue
+        # 跳过 collapse 内部的（避免重复）
+        if variants_tag.find_parent('div', class_='collapse'):
+            continue
+
+        # 提取 also（在 v-g 外面的情况，如 "(also <v-g>..." ）
+        also_prefix = ""
+        v_g = variants_tag.find('span', class_='v-g')
+        if v_g and v_g.previous_sibling:
+            prev_text = clean_text(str(v_g.previous_sibling))
+            if 'also' in prev_text.lower():
+                also_prefix = "also "
+
+        # 提取 labels 文本
+        labels_tag = variants_tag.find('span', class_='labels')
+        labels_text = clean_text(labels_tag.get_text()) if labels_tag else ""
+
+        # 如果 labels_text 以 also 开头，提取出来
+        if labels_text.lower().startswith('also'):
+            labels_text = labels_text[5:].lstrip()
+            also_prefix = "also "
+
+        # 提取变体词
+        v_tag = variants_tag.find('span', class_='v')
+        variant_word = clean_text(v_tag.get_text()) if v_tag else ""
+
+        # 组合成 "({qualifier}{tags} → {variant})" 格式
+        if labels_text and variant_word:
+            label_text = f"({also_prefix}{labels_text} → {variant_word})"
+            labels.append(label_text)
+        elif labels_text:
+            label_text = f"({also_prefix}{labels_text})"
+            labels.append(label_text)
 
     # 独立的 span.labels（不在 div.variants 内部，也不在 div.collapse 内部的）
     for labels_tag in sense_li.find_all('span', class_='labels'):
