@@ -1,5 +1,6 @@
 [
   {
+    "id": "novel_2",
     "word": "novel",
     "pos": "adjective",
     "labels": [
@@ -20,6 +21,7 @@
       {
         "definition": "different from anything known before; new, interesting and often seeming slightly strange",
         "definition_cn": "新颖的；与众不同的；珍奇的",
+        "id": "novel_sng_2",
         "examples": [
           {
             "en": "a novel feature",

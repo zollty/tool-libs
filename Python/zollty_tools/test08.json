@@ -1,5 +1,6 @@
 [
   {
+    "id": "dispensable",
     "word": "dispensable",
     "pos": "adjective",
     "grammar": "[not usually before noun]",
@@ -12,6 +13,7 @@
       {
         "definition": "not necessary; that can be got rid of",
         "definition_cn": "不必要；可有可无；不重要",
+        "id": "dispensable_sng_1",
         "examples": [
           {
             "en": "They looked on music and art lessons as dispensable.",
@@ -33,6 +35,7 @@
     ]
   },
   {
+    "id": "dispensation",
     "word": "dispensation",
     "pos": "noun",
     "phonetics": {
@@ -45,6 +48,10 @@
         "grammar": "[countable, uncountable]",
         "definition": "special permission to do something that is not usually allowed or legal",
         "definition_cn": "（尤指宗教领袖给予的）豁免，宽免",
+        "id": "dispensation_sng_1",
+        "topics": [
+          "@topic_permission-and-obligation_level=c2"
+        ],
         "examples": [
           {
             "en": "She needed a special dispensation to remarry.",
@@ -65,6 +72,7 @@
         "grammar": "[uncountable]",
         "definition": "the act or process of providing something, especially by somebody in authority",
         "definition_cn": "分配；施与；实施",
+        "id": "dispensation_sng_2",
         "examples": [
           {
             "en": "the dispensation of justice",
@@ -79,11 +87,13 @@
         "grammar": "[countable]",
         "definition": "a political or religious system that operates in a country at a particular time",
         "definition_cn": "（某一国家某一时期的政治、宗教）制度",
+        "id": "dispensation_sng_3",
         "examples": []
       }
     ]
   },
   {
+    "id": "dispenser",
     "word": "dispenser",
     "pos": "noun",
     "phonetics": {
@@ -95,6 +105,7 @@
       {
         "definition": "a machine or container holding money, drinks, paper towels, etc. that you can obtain quickly, for example by pulling a handle or pressing buttons",
         "definition_cn": "自动取款机；自动售货机；自动取物器",
+        "id": "dispenser_sng_1",
         "examples": [
           {
             "en": "a soap dispenser",
@@ -108,6 +119,7 @@
         ],
         "definition": "a person who provides something for people",
         "definition_cn": "饮水机：为人们提供东西的人",
+        "id": "dispenser_sng_2",
         "examples": [
           {
             "en": "He saw himself as a dispenser of justice.",
@@ -118,6 +130,7 @@
       {
         "definition": "a person who prepares medicines in a dispensary",
         "definition_cn": "配药员：在药房里准备药品的人",
+        "id": "dispenser_sng_3",
         "examples": [
           {
             "en": "drug prescribers and dispensers",
@@ -128,6 +141,7 @@
     ]
   },
   {
+    "id": "antonym",
     "word": "antonym",
     "pos": "noun",
     "labels": [
@@ -142,6 +156,7 @@
       {
         "definition": "a word that means the opposite of another word",
         "definition_cn": "反义词",
+        "id": "antonym_sng_1",
         "examples": [
           {
             "en": "‘Old’ has two possible antonyms: ‘young’ and ‘new’.",
@@ -169,6 +184,7 @@
     ]
   },
   {
+    "id": "afn",
     "word": "AFN",
     "pos": null,
     "phonetics": {
@@ -180,11 +196,13 @@
       {
         "definition": "American Forces Network ",
         "definition_cn": "美国部队网络",
+        "id": "afn_sng_1",
         "examples": []
       }
     ]
   },
   {
+    "id": "add-on_1",
     "word": "add on",
     "pos": "phrasal verb",
     "phonetics": {},
@@ -193,6 +211,7 @@
       {
         "definition": "to include or attach something extra",
         "definition_cn": "附加；加上",
+        "id": "add_sng_17",
         "examples": [
           {
             "en": "A service charge of 15 per cent was added on to the bill.",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "phrase_2",
     "word": "phrase",
     "pos": "verb",
     "phonetics": {
@@ -12,6 +13,7 @@
         "grammar": "[transitive]",
         "definition": "to say or write something in a particular way",
         "definition_cn": "（以某种方式）表达，措辞，推敲",
+        "id": "phrase_sng_4",
         "examples": [
           {
             "phrase": "phrase something (+ adv./prep.)",
@@ -58,6 +60,7 @@
         "phrase": "phrase (something)",
         "definition": "to divide a piece of music into small groups of notes; to play or sing these in a particular way, especially in an effective way",
         "definition_cn": "划分乐句，分乐节（尤指为奏乐或歌唱）",
+        "id": "phrase_sng_5",
         "examples": [
           {
             "en": "The concerto's slow movement was beautifully phrased.",

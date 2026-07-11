@@ -1,5 +1,6 @@
 [
   {
+    "id": "explanation",
     "word": "explanation",
     "pos": "noun",
     "oxford_levels": [
@@ -29,6 +30,7 @@
         "grammar": "[countable, uncountable]",
         "definition": "a statement, fact, or situation that tells you why something happened; a reason given for something",
         "definition_cn": "解释；说明；阐述",
+        "id": "explanation_sng_1",
         "examples": [
           {
             "en": "The most likely explanation is that his plane was delayed.",
@@ -183,6 +185,7 @@
         "grammar": "[countable]",
         "definition": "a statement or piece of writing that tells you how something works or makes something easier to understand",
         "definition_cn": "解释性说法；说明性文字",
+        "id": "explanation_sng_2",
         "examples": [
           {
             "en": "Other parts of the book contain unnecessarily lengthy explanations.",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "novel_1",
     "word": "novel",
     "pos": "noun",
     "oxford_levels": [
@@ -24,6 +25,10 @@
         "grammar": "[countable]",
         "definition": "a story long enough to fill a complete book, in which the characters and events are usually imaginary",
         "definition_cn": "（长篇）小说",
+        "id": "novel_sng_1",
+        "topics": [
+          "@topic_literature-and-writing_level=a2"
+        ],
         "examples": [
           {
             "en": "to write/publish/read a novel",
@@ -154,6 +159,7 @@
         "phrase": "the novel",
         "definition": "the type of literature that novels represent",
         "definition_cn": "小说：小说所代表的文学类型",
+        "id": "novel_sng_3",
         "examples": [
           {
             "en": "The novel is the most adaptable of all literary forms.",

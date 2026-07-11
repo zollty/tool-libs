@@ -1,5 +1,6 @@
 [
   {
+    "id": "inability",
     "word": "inability",
     "pos": "noun",
     "grammar": "[uncountable, singular]",
@@ -25,6 +26,7 @@
         "phrase": "inability (to do something)",
         "definition": "the fact of not being able to do something",
         "definition_cn": "无能；无力；不能",
+        "id": "inability_sng_1",
         "examples": [
           {
             "en": "the government’s inability to provide basic services",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "variant_1",
     "word": "variant",
     "pos": "noun",
     "phonetics": {
@@ -12,6 +13,7 @@
         "phrase": "variant (of/on something)",
         "definition": "a thing that is a slightly different form or type of something else",
         "definition_cn": "变种；变体；变形",
+        "id": "variant_sng_2",
         "examples": [
           {
             "en": "This game is a variant of baseball.",
@@ -31,6 +33,7 @@
     ]
   },
   {
+    "id": "variant_2",
     "word": "variant",
     "pos": "adjective",
     "grammar": "[only before noun]",
@@ -43,6 +46,7 @@
       {
         "definition": "slightly different in form or type from something else",
         "definition_cn": "变体：形式或类型与其他形式略有不同",
+        "id": "variant_sng_1",
         "examples": [
           {
             "en": "variant forms of spelling",
