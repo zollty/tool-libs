@@ -1,0 +1,81 @@
+{
+  "title": "word",
+  "synonyms": [
+    "term",
+    "phrase",
+    "expression",
+    "idiom"
+  ],
+  "description": "These are all words for a unit of language used to express something.",
+  "definitions": [
+    {
+      "term": "word",
+      "definition": "a single unit of language that means something and can be spoken or written:",
+      "examples": [
+        {
+          "en": "Do not write more than 200 words.",
+          "cn": "写的东西不要超过 200 字。"
+        },
+        {
+          "en": "He uses a lot of long words.",
+          "cn": "他使用了很多长词。"
+        }
+      ]
+    },
+    {
+      "term": "term",
+      "definition": "(rather formal) a word or phrase used as the name of something, especially one connected with a particular type of language:指词语、术语、措辞：",
+      "examples": [
+        {
+          "en": "technical/legal/scientific terms",
+          "cn": "专门／法律／科学用语"
+        },
+        {
+          "en": "‘Old man’ is a slang term for ‘father’.",
+          "cn": "old man 为俚语，指父亲。"
+        }
+      ],
+      "definition_cn": "指词语、术语、措辞："
+    },
+    {
+      "term": "phrase",
+      "definition": "a group of words that have a particular meaning when used together: In grammar, a phrase is a group of words without a finite verb, especially one that forms part of a sentence: ‘the green car’ and ‘on Friday morning’ are phrases.",
+      "examples": [
+        {
+          "en": "Who coined the phrase ‘fake news’?",
+          "cn": "谁创造了“假新闻”这个短语？"
+        }
+      ]
+    },
+    {
+      "term": "expression",
+      "definition": "a word or phrase:",
+      "examples": [
+        {
+          "en": "He tends to use a lot of slang expressions that I’ve never heard before.",
+          "cn": "他往往用许多我以前从未听说过的俚语。"
+        }
+      ]
+    },
+    {
+      "term": "idiom",
+      "definition": "a group of words whose meaning is different from the meanings of the individual words:",
+      "examples": [
+        {
+          "en": "‘Let the cat out of the bag’ is an idiom meaning to tell a secret by mistake.",
+          "cn": "“让猫从袋子里跑出来”是惯用语，意思是无意中泄露秘密。"
+        }
+      ]
+    }
+  ],
+  "patterns": [
+    "a word/term for something",
+    "a new word/term/phrase/expression",
+    "a technical/colloquial word/term/phrase/expression",
+    "a slang word/term/phrase",
+    "an idiomatic phrase/expression",
+    "to use a(n) word/term/phrase/expression/idiom",
+    "to coin a(n) word/term/phrase/expression",
+    "a(n) word/term/phrase/expression/idiom means something"
+  ]
+}

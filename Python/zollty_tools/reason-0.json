@@ -1,0 +1,102 @@
+{
+  "title": "reason",
+  "synonyms": [
+    "explanation",
+    "grounds",
+    "basis",
+    "excuse",
+    "motive",
+    "justification",
+    "pretext"
+  ],
+  "description": "These are all words for a cause or an explanation for something that has happened or that somebody has done.",
+  "definitions": [
+    {
+      "term": "reason",
+      "definition": "a cause or an explanation for something that has happened or that somebody has done; a fact that makes it right or fair to do something:",
+      "examples": [
+        {
+          "en": "He said no but he didn’t give a reason.",
+          "cn": "他说不行，但没有说明原因。"
+        }
+      ]
+    },
+    {
+      "term": "explanation",
+      "definition": "a statement, fact or situation that tells you why something has happened; a reason given for something:",
+      "examples": [
+        {
+          "en": "The most likely explanation is that his plane was delayed.",
+          "cn": "最可能的解释是他的飞机晚点了。"
+        },
+        {
+          "en": "She left the room abruptly without explanation.",
+          "cn": "她未作解释就突然离开了房间。"
+        }
+      ]
+    },
+    {
+      "term": "grounds",
+      "definition": "(rather formal ) a good or true reason for saying, doing or believing something: 指说、做或相信某事的充分理由、根据：",
+      "examples": [
+        {
+          "en": "You have no grounds for complaint.",
+          "cn": "你没有理由抱怨。"
+        }
+      ],
+      "definition_cn": "指说、做或相信某事的充分理由、根据："
+    },
+    {
+      "term": "basis",
+      "definition": "(rather formal ) the reason why people take a particular action: 指原因、缘由：",
+      "examples": [
+        {
+          "en": "On what basis will this decision be made?",
+          "cn": "将基于何种原因作出这一决定呢？"
+        }
+      ],
+      "definition_cn": "指原因、缘由："
+    },
+    {
+      "term": "excuse",
+      "definition": "a reason, either true or invented, that you give to explain or defend your behaviour; a good reason that you give for doing something that you want to do for other reasons:",
+      "examples": [
+        {
+          "en": "Late again! What’s your excuse this time?",
+          "cn": "又迟到了！你这次有什么借口？"
+        },
+        {
+          "en": "It gave me an excuse to take the car.",
+          "cn": "这使我有理由开车去了。"
+        }
+      ]
+    },
+    {
+      "term": "motive",
+      "definition": "a reason that explains somebody’s behaviour:",
+      "examples": [
+        {
+          "en": "There seemed to be no motive for the murder.",
+          "cn": "这起谋杀案看不出有什么动机。"
+        }
+      ]
+    },
+    {
+      "term": "justification",
+      "definition": "(rather formal ) a good reason why something exists or is done: 指事物存在或做某事的正当理由：",
+      "examples": [
+        {
+          "en": "I can see no possible justification for any further tax increases.",
+          "cn": "我看不出还能提出什么理由来加税了。"
+        }
+      ],
+      "definition_cn": "指事物存在或做某事的正当理由："
+    }
+  ],
+  "patterns": [
+    "(a/an) reason/explanation/grounds/basis/excuse/motive/justification/pretext for something",
+    "the reason/motive behind something",
+    "on the grounds/basis/pretext of/that…",
+    "(a) good/valid reason/explanation/grounds/excuse/motive/justification"
+  ]
+}
