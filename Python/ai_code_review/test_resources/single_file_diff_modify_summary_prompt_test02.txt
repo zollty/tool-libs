@@ -1,0 +1,79 @@
+## 文件: zoa-tomcat/src/main/java/com/zollty/oa/pc/file/ShowDirSize.java
+   状态: M-修改
+   文件内容:
+@@ -1,17 +1,16 @@
+ package com.zollty.oa.pc.file;
+
+-import java.io.BufferedReader;
+-import java.io.File;
+-import java.io.IOException;
+-import java.io.InputStream;
+-import java.io.InputStreamReader;
++import com.zollty.oa.base.UT;
++
++import java.io.*;
+ import java.math.BigInteger;
+ import java.nio.charset.Charset;
++import java.nio.file.Files;
++import java.nio.file.Path;
++import java.nio.file.Paths;
+ import java.util.Arrays;
+ import java.util.Comparator;
+
+-import com.zollty.oa.base.UT;
+-
+ /**
+  *
+  * @author zollty
+@@ -92,17 +91,50 @@ public class ShowDirSize {
+         }
+     }
+
+-    public static void main(String[] args) {
++    public static void main(String[] args) throws IOException {
+ //        action("C:\\Users\\zollty-pc", 3);
+         printDir("", new File("G:\\settle"));
+         //callCommand(null, EXE_FILE,  "/L", "\"D:\\50-TEMP\"", "\"D:\\aa\"", "/E" ,"/XJ" , "/NFL", "/NDL");
+     }
++
++    /**
++     * 检查是否为交接点或符号链接
++     */
++    public static String detectJunction(String pathStr) {
++        try {
++            Path path = Paths.get(pathStr);
++            if (!Files.exists(path)) {
++                return null;
++            }
++            Path realPath = path.toRealPath();
++//            System.out.println("原始路径: " + path);
++//            System.out.println("真实路径: " + realPath);
++            if (!path.toAbsolutePath().equals(realPath)) {
++//                System.out.println("该路径是交接点或符号链接，真实路径为: " + realPath);
++                return realPath.toString();
++            } else {
++//                System.out.println("该路径不是交接点也不是符号链接");
++                return null;
++            }
++        } catch (Exception e) {
++            e.printStackTrace();
++            return null;
++        }
++    }
++
++    static String getShowName(File dir) {
++        String path = detectJunction(dir.getAbsolutePath());
++        if (path == null) {
++            return dir.getName();
++        }
++        return dir.getName() + " -> " + path;
++    }
+
+     static void printDir(String pre, File dir) {
+         String size = callCommand(dir, EXE_FILE, "/L", "\"" + dir.getAbsolutePath() + "\"", "\"C:\\aa\\bb\\xyz\"", "/E", "/XJ",
+                 "/NFL", "/NDL");
+         if (UT.Str.isNotEmpty(size)) {
+-            System.out.println(pre + dir.getName() + ": " + size);
++            System.out.println(pre + getShowName(dir) + ": " + size);
+         }
+     }

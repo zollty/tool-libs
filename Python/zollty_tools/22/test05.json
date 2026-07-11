@@ -1,0 +1,55 @@
+[
+  {
+    "word": "variant",
+    "pos": "noun",
+    "phonetics": {
+      "am": "/ˈveriənt/",
+      "am_audio": "variant__us_1.mp3"
+    },
+    "word_family": [],
+    "senses": [
+      {
+        "phrase": "variant (of/on something)",
+        "definition": "a thing that is a slightly different form or type of something else",
+        "definition_cn": "变种；变体；变形",
+        "examples": [
+          {
+            "en": "This game is a variant of baseball.",
+            "cn": "这种运动是由棒球演变而来的。",
+            "am_audio": "_variant__uss_1.mp3"
+          },
+          {
+            "en": "a variant of the original experiment",
+            "cn": "原始实验的变体"
+          },
+          {
+            "en": "a variant on a familiar theme",
+            "cn": "熟悉主题的变体"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "word": "variant",
+    "pos": "adjective",
+    "grammar": "[only before noun]",
+    "phonetics": {
+      "am": "/ˈveriənt/",
+      "am_audio": "variant__us_1.mp3"
+    },
+    "word_family": [],
+    "senses": [
+      {
+        "definition": "slightly different in form or type from something else",
+        "definition_cn": "变体：形式或类型与其他形式略有不同",
+        "examples": [
+          {
+            "en": "variant forms of spelling",
+            "cn": "不同的拼写形式"
+          }
+        ]
+      }
+    ]
+  }
+]

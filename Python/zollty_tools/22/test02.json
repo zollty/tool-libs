@@ -1,0 +1,53 @@
+[
+  {
+    "word": "novel",
+    "pos": "adjective",
+    "oxford_levels": [
+      {
+        "dictionary": "ox5000",
+        "level": "c1"
+      }
+    ],
+    "phonetics": {
+      "am": "/ˈnɑːvl/",
+      "am_audio": "novel__us_1.mp3"
+    },
+    "word_family": [],
+    "senses": [
+      {
+        "definition": "different from anything known before; new, interesting and often seeming slightly strange",
+        "definition_cn": "新颖的；与众不同的；珍奇的",
+        "examples": [
+          {
+            "en": "a novel feature",
+            "cn": "新特征"
+          },
+          {
+            "en": "Job-sharing is still a novel concept and it will take a while for employers to get used to it.",
+            "cn": "工作分享仍然是一个新颖的概念，雇主需要一段时间才能习惯。"
+          },
+          {
+            "en": "The plan sounded rather novel.",
+            "cn": "这个计划听上去挺有新意。"
+          },
+          {
+            "en": "It was an American who came up with the novel idea of drive-in restaurants.",
+            "cn": "是一个美国人想出了“免下车”餐馆这个新奇的点子。"
+          }
+        ],
+        "collocations": {
+          "verbs": [
+            "be",
+            "sound"
+          ],
+          "adverb": [
+            "extremely",
+            "fairly",
+            "very",
+            "…"
+          ]
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,75 @@
+## 文件: hilo-framework/hilo-core/src/main/java/org/hilo/boot/app/component/ShowConfig.java
+   状态: M-修改
+   文件内容:
+@@ -1,9 +1,6 @@
+ package org.hilo.boot.app.component;
+
+-import java.util.Arrays;
+-import java.util.Map;
+-import java.util.Properties;
+-import java.util.TreeMap;
++import java.util.*;
+
+ import org.hilo.boot.core.UT;
+ import org.slf4j.Logger;
+@@ -85,30 +82,53 @@ public class ShowConfig implements ApplicationContextAware, InitializingBean {
+             logger.info(UT.Str.replace(sbu.toString(), "org.springframework.", "spring."));
+         }
+     }
++
++    private void appendSourceName(StringBuilder builder, int i, PropertySource source) {
++        String className = source.getClass().getName().replace("org.springframework.", "spring.");
++        int size = ((EnumerablePropertySource<?>) source).getPropertyNames().length;
++        builder.append("配置 ").append(i).append(" PropertySource(").append(className).append("): ")
++                .append(source.getName()).append(", size=").append(size).append("\r\n");
++    }
+
+     /** 输出spring配置 */
+     public void showConfig(Environment env) {
+         StringBuilder builder = new StringBuilder();
+         builder.append("\n\r");
+-        builder.append(" Show spring config ST: -----------------------------------------------------------");
++        builder.append("Show spring config ST: -----------------------------------------------------------");
+         builder.append("\n\r");
+         builder.append("active profiles=").append(Arrays.toString(env.getActiveProfiles())).append("\r\n");
+         ConfigurableEnvironment cenv = (ConfigurableEnvironment) env;
+         MutablePropertySources srcs = cenv.getPropertySources();
+-
++
++        int i = 0;
++        builder.append("项目加载的所有配置如下(优先级从低到高) ：\r\n");
++        for (PropertySource<?> source : srcs) {
++            if (source instanceof EnumerablePropertySource) {
++                appendSourceName(builder, i++, source);
++            }
++        }
++        builder.append("\r\n详细配置如下：\r\n");
++
++        Map<String, Object> finalVals = new HashMap<>();
++        i = 0;
+         for (PropertySource<?> source : srcs) {
+             if (source instanceof EnumerablePropertySource) {
+-                builder.append("-----------------------PropertySource: "
+-                + source.getName()
+-                + ", size="
+-                + ((EnumerablePropertySource<?>) source).getPropertyNames().length+ "\r\n");
++                appendSourceName(builder, i++, source);
+                 for (String name : ((EnumerablePropertySource<?>) source).getPropertyNames()) {
+-                    builder.append(name).append("=").append(source.getProperty(name)).append("\r\n");
++                    builder.append(name).append(": ").append(source.getProperty(name)).append("\r\n");
++                    finalVals.put(name, source.getProperty(name));
+                 }
+                 builder.append("\r\n");
+             }
+         }
+-        builder.append(" Show spring config EN. -----------------------------------------------------------");
++        builder.append("Show spring config EN. -----------------------------------------------------------");
++        logger.info(builder.toString());
++        builder = new StringBuilder();
++        builder.append("最终生效的配置值:  ST. -------------------------------------------------------------");
++        for (Map.Entry<String, Object> en : finalVals.entrySet()) {
++            builder.append(en.getKey()).append(": ").append(en.getValue()).append("\r\n");
++        }
++        builder.append("最终生效的配置值  END. -------------------------------------------------------------");
+         logger.info(builder.toString());
+     }

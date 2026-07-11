@@ -31,6 +31,7 @@ goto EOF
 :HELP
 echo Usage: min
 echo.
+pause
 
 :EOF
 

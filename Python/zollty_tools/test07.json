@@ -1,0 +1,67 @@
+[
+  {
+    "word": "disorderly",
+    "pos": "adjective",
+    "grammar": "[usually before noun]",
+    "labels": [
+      "(formal)"
+    ],
+    "phonetics": {
+      "am": "/dɪsˈɔːrdərli/",
+      "am_audio": "disorderly__us_1.mp3"
+    },
+    "word_family": [],
+    "senses": [
+      {
+        "phrase": "( of people or behaviour )",
+        "phrase_cn": "人或行为",
+        "definition": "showing lack of control; publicly noisy or violent",
+        "definition_cn": "难驾驭的；目无法纪的；骚乱的",
+        "examples": [
+          {
+            "en": "disorderly behaviour",
+            "cn": "混乱的行为"
+          },
+          {
+            "en": "A disorderly crowd had gathered outside the embassy.",
+            "cn": "一群不守秩序的人聚集在大使馆外面。"
+          }
+        ]
+      },
+      {
+        "definition": "untidy",
+        "definition_cn": "杂乱的；混乱的；凌乱的",
+        "examples": [
+          {
+            "en": "newspapers in a disorderly pile by the door",
+            "cn": "门边乱七八糟的一堆报纸"
+          }
+        ]
+      }
+    ],
+    "opposite": [
+      {
+        "title": "orderly",
+        "entry": "orderly_2"
+      }
+    ],
+    "idioms": [
+      {
+        "phrase": "drunk and disorderly",
+        "labels": "(law法律)",
+        "senses": [
+          {
+            "definition": "behaving in a noisy or violent way in a public place because you are drunk",
+            "definition_cn": "杂乱的；混乱的；凌乱的",
+            "examples": [
+              {
+                "en": "Police arrested him for being drunk and disorderly.",
+                "cn": "他因醉酒妨害治安被警方逮捕。"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

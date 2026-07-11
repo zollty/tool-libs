@@ -4,7 +4,7 @@ setlocal
 echo.
 call java -version
 echo.
-SET JAVA_HOME=D:\C\Program Files\Java\jdk1.7.0_80
+SET JAVA_HOME=D:\__SYNC1\Softwares\Java\jdk1.7.0_79
 echo ------------------------- maven info -------------------------------
 call mvn -v
 
@@ -40,21 +40,21 @@ goto HELP
 :INSTALL
 echo ------------------------- starting to install -------------------------
 cd %2
-call mvn clean install -Pjretty-release
+call mvn clean install -Pjretty-release --settings D:\__SYNC0\00WORK\ide-config\settings-local.xml
 
 goto EOF
 
 :DEPLOY
 echo ------------------------- starting to deploy -------------------------
 cd %2
-call mvn clean deploy -Pjretty-release -Plocal-deploy
+call mvn clean deploy -Pjretty-release -Plocal-deploy --settings D:\__SYNC0\00WORK\ide-config\settings-local.xml
 
 goto EOF
 
 :TESTDP
 echo ------------------------- starting to deploy -------------------------
 cd %2
-call mvn clean deploy -Ptest-deploy -Pjretty-release
+call mvn clean deploy -Ptest-deploy -Pjretty-release --settings D:\__SYNC0\00WORK\ide-config\settings-local.xml
 
 goto EOF
 
@@ -64,4 +64,6 @@ echo Usage:
 echo    input 'deploy ${PATH}' to deploy to local repo.
 echo    input 'install ${PATH}' to execute install.
 echo.
+pause
+
 :EOF

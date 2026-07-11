@@ -1,0 +1,123 @@
+[
+  {
+    "word": "advertisement",
+    "pos": "noun",
+    "oxford_levels": [
+      {
+        "dictionary": "ox3000",
+        "level": "a2"
+      }
+    ],
+    "phonetics": {
+      "am": "/ˌædvərˈtaɪzmənt/",
+      "am_audio": "advertisement__us_2_rr.mp3"
+    },
+    "word_family": [],
+    "senses": [
+      {
+        "oxford_levels": [
+          {
+            "dictionary": "ox3000",
+            "level": "a2"
+          }
+        ],
+        "labels": [
+          "(also informal ad)",
+          "(also British English, informal advert)"
+        ],
+        "grammar": "[countable]",
+        "definition": "a notice, picture or film telling people about a product, job or service",
+        "definition_cn": "广告；启事",
+        "examples": [
+          {
+            "en": "a newspaper/television advertisement",
+            "cn": "报纸/电视广告"
+          },
+          {
+            "en": "an online advertisement",
+            "cn": "在线广告"
+          },
+          {
+            "en": "You can place an advertisement on a classifieds website.",
+            "cn": "你可以在分类广告网站上登广告。"
+          },
+          {
+            "phrase": "advertisement for something",
+            "en": "Television and radio refused to carry advertisements for the album.",
+            "cn": "电视和广播都拒绝为该专辑做广告宣传。"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "We placed advertisements in a number of national newspapers.",
+            "cn": "我们在多家全国性的报纸上都刊登了广告。"
+          },
+          {
+            "en": "She ran a full-page advertisement on the back page of the newspaper."
+          }
+        ],
+        "collocations": {
+          "adjective": [
+            "good",
+            "discreet",
+            "misleading",
+            "…"
+          ],
+          "verb + advertisement": [
+            "place",
+            "put",
+            "take out",
+            "…"
+          ],
+          "adverb": [
+            "appear",
+            "say something",
+            "show something",
+            "…"
+          ],
+          "preposition": [
+            "in a/the advertisement",
+            "advertisement for"
+          ]
+        },
+        "see_also": [
+          {
+            "title": "classified advertisement",
+            "entry": "classified-advertisement"
+          }
+        ]
+      },
+      {
+        "labels": [
+          "(British English also advert)"
+        ],
+        "grammar": "[countable]",
+        "phrase": "advertisement for something",
+        "definition": "an example of something that shows its good qualities",
+        "definition_cn": "广告（样）品",
+        "examples": [
+          {
+            "en": "Dirty streets and homelessness are no advertisement for a prosperous society.",
+            "cn": "肮脏的街道和无家可归现象绝不是繁荣社会的景象。",
+            "am_audio": "_advertisement__uss_2.mp3"
+          },
+          {
+            "en": "He's a walking advertisement for healthy living.",
+            "cn": "他是健康生活方式的活广告。"
+          }
+        ]
+      },
+      {
+        "grammar": "[uncountable]",
+        "definition": "the act of advertising something and making it public",
+        "definition_cn": "广告活动；广告宣传",
+        "examples": [
+          {
+            "en": "We are employing an assistant to help with the advertisement of the group’s activities.",
+            "cn": "我们打算招聘一名助手来做团队活动的宣传工作。"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,579 @@
+执行时间: 2026-06-09 18:37:25
+SQL 总数: 98
+------------------------------------------------------------
+
+[SQL 2]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI232601202506240002%' AND amount=815.54 AND operate_date BETWEEN '2025-07-29 13:59:59' AND '2025-07-29 14:00:01' limit 50;
+结果条数: 1
+查询结果:
+(23832, '232601', 'Changan Cancún', 50091002, 50101002, 50111002, 'SGACI232601202506240002', Decimal('815.5400'), None, None, datetime.datetime(2025, 7, 29, 14, 0), None, None, datetime.datetime(2025, 7, 29, 14, 0), None, datetime.datetime(2025, 7, 29, 14, 0), None, 80501002, None, 1, None)
+
+[SQL 3]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI010501202507110001%' AND amount=636.86 AND operate_date BETWEEN '2025-07-29 16:30:00' AND '2025-07-29 16:30:02' limit 50;
+结果条数: 1
+查询结果:
+(23852, '010501', 'Changan Aguascalientes', 50091002, 50101002, 50111002, 'SGACI010501202507110001', Decimal('636.8600'), None, None, datetime.datetime(2025, 7, 29, 16, 30, 1), None, None, datetime.datetime(2025, 7, 29, 16, 30, 1), None, datetime.datetime(2025, 7, 29, 16, 30, 1), None, 80501002, None, 1, None)
+
+[SQL 4]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI192506202506090004%' AND amount=16218.02 AND operate_date BETWEEN '2025-08-22 11:00:05' AND '2025-08-22 11:00:07' limit 50;
+结果条数: 1
+查询结果:
+(27155, '192505', 'Changan Monterrey Gonzalitos', 50091002, 50101002, 50111002, 'SGACI192506202506090004', Decimal('16218.0200'), None, None, datetime.datetime(2025, 8, 22, 11, 0, 6), None, None, datetime.datetime(2025, 8, 22, 11, 0, 6), None, datetime.datetime(2025, 8, 22, 11, 0, 6), None, 80501002, None, 1, None)
+
+[SQL 5]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI191204202506250001%' AND amount=7286.01 AND operate_date BETWEEN '2025-08-22 11:00:08' AND '2025-08-22 11:00:10' limit 50;
+结果条数: 1
+查询结果:
+(27163, '191201', 'Changan Monterrey Contry', 50091002, 50101002, 50111002, 'SGACI191204202506250001', Decimal('7286.0100'), None, None, datetime.datetime(2025, 8, 22, 11, 0, 9), None, None, datetime.datetime(2025, 8, 22, 11, 0, 9), None, datetime.datetime(2025, 8, 22, 11, 0, 9), None, 80501002, None, 1, None)
+
+[SQL 6]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI192506202506170002%' AND amount=185.14 AND operate_date BETWEEN '2025-08-25 17:39:59' AND '2025-08-25 17:40:01' limit 50;
+结果条数: 1
+查询结果:
+(27436, '192505', 'Changan Monterrey Gonzalitos', 50091002, 50101002, 50111002, 'SGACI192506202506170002', Decimal('185.1400'), None, None, datetime.datetime(2025, 8, 25, 17, 40, 1), None, None, datetime.datetime(2025, 8, 25, 17, 40), None, datetime.datetime(2025, 8, 25, 17, 40), None, 80501002, None, 1, None)
+
+[SQL 7]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI192506202506110001%' AND amount=1390.31 AND operate_date BETWEEN '2025-08-25 17:39:59' AND '2025-08-25 17:40:01' limit 50;
+结果条数: 1
+查询结果:
+(27437, '192505', 'Changan Monterrey Gonzalitos', 50091002, 50101002, 50111002, 'SGACI192506202506110001', Decimal('1390.3100'), None, None, datetime.datetime(2025, 8, 25, 17, 40, 1), None, None, datetime.datetime(2025, 8, 25, 17, 40), None, datetime.datetime(2025, 8, 25, 17, 40), None, 80501002, None, 1, None)
+
+[SQL 8]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI192506202505140001%' AND amount=1543.87 AND operate_date BETWEEN '2025-08-25 17:40:00' AND '2025-08-25 17:40:02' limit 50;
+结果条数: 1
+查询结果:
+(27438, '192505', 'Changan Monterrey Gonzalitos', 50091002, 50101002, 50111002, 'SGACI192506202505140001', Decimal('1543.8700'), None, None, datetime.datetime(2025, 8, 25, 17, 40, 1), None, None, datetime.datetime(2025, 8, 25, 17, 40, 1), None, datetime.datetime(2025, 8, 25, 17, 40, 1), None, 80501002, None, 1, None)
+
+[SQL 9]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI191204202506230001%' AND amount=7920.1 AND operate_date BETWEEN '2025-08-25 17:40:00' AND '2025-08-25 17:40:02' limit 50;
+结果条数: 1
+查询结果:
+(27440, '191201', 'Changan Monterrey Contry', 50091002, 50101002, 50111002, 'SGACI191204202506230001', Decimal('7920.1000'), None, None, datetime.datetime(2025, 8, 25, 17, 40, 2), None, None, datetime.datetime(2025, 8, 25, 17, 40, 1), None, datetime.datetime(2025, 8, 25, 17, 40, 1), None, 80501002, None, 1, None)
+
+[SQL 10]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI191204202506250001%' AND amount=38.14 AND operate_date BETWEEN '2025-09-01 15:59:59' AND '2025-09-01 16:00:01' limit 50;
+结果条数: 1
+查询结果:
+(30046, '191201', 'Changan Monterrey Contry', 50091002, 50101002, 50111002, 'SGACI191204202506250001', Decimal('38.1400'), None, None, datetime.datetime(2025, 9, 1, 16, 0, 1), None, None, datetime.datetime(2025, 9, 1, 16, 0), None, datetime.datetime(2025, 9, 1, 16, 0), None, 80501002, None, 1, None)
+
+[SQL 11]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI152606202506110001%' AND amount=2462.48 AND operate_date BETWEEN '2025-09-02 15:59:59' AND '2025-09-02 16:00:01' limit 50;
+结果条数: 1
+查询结果:
+(30296, '232601', 'Changan Guadalajara Del Sol', 50091002, 50101002, 50111002, 'SGACI152606202506110001', Decimal('2462.4800'), None, None, datetime.datetime(2025, 9, 2, 16, 0), None, None, datetime.datetime(2025, 9, 2, 16, 0), None, datetime.datetime(2025, 9, 2, 16, 0), None, 80501002, None, 1, None)
+
+[SQL 12]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI152606202505060002%' AND amount=3698.18 AND operate_date BETWEEN '2025-09-04 11:59:59' AND '2025-09-04 12:00:01' limit 50;
+结果条数: 1
+查询结果:
+(30666, '232601', 'Changan Guadalajara Del Sol', 50091002, 50101002, 50111002, 'SGACI152606202505060002', Decimal('3698.1800'), None, None, datetime.datetime(2025, 9, 4, 12, 0), None, None, datetime.datetime(2025, 9, 4, 12, 0), None, datetime.datetime(2025, 9, 4, 12, 0), None, 80501002, None, 1, None)
+
+[SQL 13]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI110804202505250001%' AND amount=5468.1 AND operate_date BETWEEN '2025-09-04 11:59:59' AND '2025-09-04 12:00:01' limit 50;
+结果条数: 1
+查询结果:
+(30667, '110804', 'Changan Metepec', 50091002, 50101002, 50111002, 'SGACI110804202505250001', Decimal('5468.1000'), None, None, datetime.datetime(2025, 9, 4, 12, 0, 1), None, None, datetime.datetime(2025, 9, 4, 12, 0), None, datetime.datetime(2025, 9, 4, 12, 0), None, 80501002, None, 1, None)
+
+[SQL 14]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI291303202505310002%' AND amount=1762.38 AND operate_date BETWEEN '2025-09-04 11:59:59' AND '2025-09-04 12:00:01' limit 50;
+结果条数: 1
+查询结果:
+(30668, '291303', 'Changan Mérida', 50091002, 50101002, 50111002, 'SGACI291303202505310002', Decimal('1762.3800'), None, None, datetime.datetime(2025, 9, 4, 12, 0, 1), None, None, datetime.datetime(2025, 9, 4, 12, 0), None, datetime.datetime(2025, 9, 4, 12, 0), None, 80501002, None, 1, None)
+
+[SQL 15]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI291303202504030005%' AND amount=1278.38 AND operate_date BETWEEN '2025-09-04 12:00:00' AND '2025-09-04 12:00:02' limit 50;
+结果条数: 1
+查询结果:
+(30671, '291303', 'Changan Mérida', 50091002, 50101002, 50111002, 'SGACI291303202504030005', Decimal('1278.3800'), None, None, datetime.datetime(2025, 9, 4, 12, 0, 1), None, None, datetime.datetime(2025, 9, 4, 12, 0, 1), None, datetime.datetime(2025, 9, 4, 12, 0, 1), None, 80501002, None, 1, None)
+
+[SQL 16]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI261401202506090002%' AND amount=6904.72 AND operate_date BETWEEN '2025-09-04 12:00:01' AND '2025-09-04 12:00:03' limit 50;
+结果条数: 1
+查询结果:
+(30673, '261401', 'Changan Villahermosa', 50091002, 50101002, 50111002, 'SGACI261401202506090002', Decimal('6904.7200'), None, None, datetime.datetime(2025, 9, 4, 12, 0, 2), None, None, datetime.datetime(2025, 9, 4, 12, 0, 2), None, datetime.datetime(2025, 9, 4, 12, 0, 2), None, 80501002, None, 1, None)
+
+[SQL 17]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI261401202506090001%' AND amount=5721.23 AND operate_date BETWEEN '2025-09-04 12:00:01' AND '2025-09-04 12:00:03' limit 50;
+结果条数: 1
+查询结果:
+(30674, '261401', 'Changan Villahermosa', 50091002, 50101002, 50111002, 'SGACI261401202506090001', Decimal('5721.2300'), None, None, datetime.datetime(2025, 9, 4, 12, 0, 2), None, None, datetime.datetime(2025, 9, 4, 12, 0, 2), None, datetime.datetime(2025, 9, 4, 12, 0, 2), None, 80501002, None, 1, None)
+
+[SQL 18]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI261401202506040001%' AND amount=2091.62 AND operate_date BETWEEN '2025-09-04 12:00:01' AND '2025-09-04 12:00:03' limit 50;
+结果条数: 1
+查询结果:
+(30675, '261401', 'Changan Villahermosa', 50091002, 50101002, 50111002, 'SGACI261401202506040001', Decimal('2091.6200'), None, None, datetime.datetime(2025, 9, 4, 12, 0, 3), None, None, datetime.datetime(2025, 9, 4, 12, 0, 2), None, datetime.datetime(2025, 9, 4, 12, 0, 2), None, 80501002, None, 1, None)
+
+[SQL 19]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI250201202502050001%' AND amount=3694.07 AND operate_date BETWEEN '2025-09-04 12:00:01' AND '2025-09-04 12:00:03' limit 50;
+结果条数: 1
+查询结果:
+(30676, '250201', 'Changan Mazatlan', 50091002, 50101002, 50111002, 'SGACI250201202502050001', Decimal('3694.0700'), None, None, datetime.datetime(2025, 9, 4, 12, 0, 3), None, None, datetime.datetime(2025, 9, 4, 12, 0, 2), None, datetime.datetime(2025, 9, 4, 12, 0, 2), None, 80501002, None, 1, None)
+
+[SQL 20]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI261401202505150001%' AND amount=1068.68 AND operate_date BETWEEN '2025-09-04 12:00:02' AND '2025-09-04 12:00:04' limit 50;
+结果条数: 1
+查询结果:
+(30677, '261401', 'Changan Villahermosa', 50091002, 50101002, 50111002, 'SGACI261401202505150001', Decimal('1068.6800'), None, None, datetime.datetime(2025, 9, 4, 12, 0, 3), None, None, datetime.datetime(2025, 9, 4, 12, 0, 3), None, datetime.datetime(2025, 9, 4, 12, 0, 3), None, 80501002, None, 1, None)
+
+[SQL 21]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI050301202503090001%' AND amount=1118.45 AND operate_date BETWEEN '2025-09-04 12:00:02' AND '2025-09-04 12:00:04' limit 50;
+结果条数: 1
+查询结果:
+(30678, '050301', 'Changan Zaragoza', 50091002, 50101002, 50111002, 'SGACI050301202503090001', Decimal('1118.4500'), None, None, datetime.datetime(2025, 9, 4, 12, 0, 3), None, None, datetime.datetime(2025, 9, 4, 12, 0, 3), None, datetime.datetime(2025, 9, 4, 12, 0, 3), None, 80501002, None, 1, None)
+
+[SQL 22]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%291303202429130311270004%' AND amount=107.81 AND operate_date BETWEEN '2025-09-04 12:00:02' AND '2025-09-04 12:00:04' limit 50;
+结果条数: 1
+查询结果:
+(30680, '291303', 'Changan Merida', 50091002, 50101002, 50111002, '291303202429130311270004', Decimal('107.8100'), None, None, datetime.datetime(2025, 9, 4, 12, 0, 4), None, None, datetime.datetime(2025, 9, 4, 12, 0, 3), None, datetime.datetime(2025, 9, 4, 12, 0, 3), None, 80501002, None, 1, None)
+
+[SQL 23]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI232601202505060002%' AND amount=738.4 AND operate_date BETWEEN '2025-09-04 12:00:03' AND '2025-09-04 12:00:05' limit 50;
+结果条数: 1
+查询结果:
+(30681, '232601', 'Changan Cancún', 50091002, 50101002, 50111002, 'SGACI232601202505060002', Decimal('738.4000'), None, None, datetime.datetime(2025, 9, 4, 12, 0, 4), None, None, datetime.datetime(2025, 9, 4, 12, 0, 4), None, datetime.datetime(2025, 9, 4, 12, 0, 4), None, 80501002, None, 1, None)
+
+[SQL 24]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI291303202504090002%' AND amount=803.8 AND operate_date BETWEEN '2025-09-04 12:00:03' AND '2025-09-04 12:00:05' limit 50;
+结果条数: 1
+查询结果:
+(30683, '291303', 'Changan Mérida', 50091002, 50101002, 50111002, 'SGACI291303202504090002', Decimal('803.8000'), None, None, datetime.datetime(2025, 9, 4, 12, 0, 5), None, None, datetime.datetime(2025, 9, 4, 12, 0, 4), None, datetime.datetime(2025, 9, 4, 12, 0, 4), None, 80501002, None, 1, None)
+
+[SQL 25]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI192506202504150002%' AND amount=386.08 AND operate_date BETWEEN '2025-09-04 12:00:03' AND '2025-09-04 12:00:05' limit 50;
+结果条数: 1
+查询结果:
+(30684, '192505', 'Changan Monterrey Gonzalitos', 50091002, 50101002, 50111002, 'SGACI192506202504150002', Decimal('386.0800'), None, None, datetime.datetime(2025, 9, 4, 12, 0, 5), None, None, datetime.datetime(2025, 9, 4, 12, 0, 4), None, datetime.datetime(2025, 9, 4, 12, 0, 4), None, 80501002, None, 1, None)
+
+[SQL 26]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI152606202504240009%' AND amount=7581.51 AND operate_date BETWEEN '2025-09-04 12:00:04' AND '2025-09-04 12:00:06' limit 50;
+结果条数: 1
+查询结果:
+(30685, '232601', 'Changan Guadalajara Del Sol', 50091002, 50101002, 50111002, 'SGACI152606202504240009', Decimal('7581.5100'), None, None, datetime.datetime(2025, 9, 4, 12, 0, 5), None, None, datetime.datetime(2025, 9, 4, 12, 0, 5), None, datetime.datetime(2025, 9, 4, 12, 0, 5), None, 80501002, None, 1, None)
+
+[SQL 27]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI291303202504250001%' AND amount=14297.99 AND operate_date BETWEEN '2025-09-04 12:00:04' AND '2025-09-04 12:00:06' limit 50;
+结果条数: 1
+查询结果:
+(30686, '291303', 'Changan Mérida', 50091002, 50101002, 50111002, 'SGACI291303202504250001', Decimal('14297.9900'), None, None, datetime.datetime(2025, 9, 4, 12, 0, 5), None, None, datetime.datetime(2025, 9, 4, 12, 0, 5), None, datetime.datetime(2025, 9, 4, 12, 0, 5), None, 80501002, None, 1, None)
+
+[SQL 28]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI261401202504280002%' AND amount=530.2 AND operate_date BETWEEN '2025-09-04 12:00:04' AND '2025-09-04 12:00:06' limit 50;
+结果条数: 1
+查询结果:
+(30687, '261401', 'Changan Villahermosa', 50091002, 50101002, 50111002, 'SGACI261401202504280002', Decimal('530.2000'), None, None, datetime.datetime(2025, 9, 4, 12, 0, 6), None, None, datetime.datetime(2025, 9, 4, 12, 0, 5), None, datetime.datetime(2025, 9, 4, 12, 0, 5), None, 80501002, None, 1, None)
+
+[SQL 29]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI152606202505060001%' AND amount=4260.03 AND operate_date BETWEEN '2025-09-04 12:00:05' AND '2025-09-04 12:00:07' limit 50;
+结果条数: 1
+查询结果:
+(30689, '232601', 'Changan Guadalajara Del Sol', 50091002, 50101002, 50111002, 'SGACI152606202505060001', Decimal('4260.0300'), None, None, datetime.datetime(2025, 9, 4, 12, 0, 6), None, None, datetime.datetime(2025, 9, 4, 12, 0, 6), None, datetime.datetime(2025, 9, 4, 12, 0, 6), None, 80501002, None, 1, None)
+
+[SQL 30]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI291303202505310004%' AND amount=22021.81 AND operate_date BETWEEN '2025-09-04 12:00:06' AND '2025-09-04 12:00:08' limit 50;
+结果条数: 1
+查询结果:
+(30692, '291303', 'Changan Mérida', 50091002, 50101002, 50111002, 'SGACI291303202505310004', Decimal('22021.8100'), None, None, datetime.datetime(2025, 9, 4, 12, 0, 7), None, None, datetime.datetime(2025, 9, 4, 12, 0, 7), None, datetime.datetime(2025, 9, 4, 12, 0, 7), None, 80501002, None, 1, None)
+
+[SQL 31]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI261401202503240001%' AND amount=815.54 AND operate_date BETWEEN '2025-09-04 16:59:59' AND '2025-09-04 17:00:01' limit 50;
+结果条数: 1
+查询结果:
+(30723, '261401', 'Changan Villahermosa', 50091002, 50101002, 50111002, 'SGACI261401202503240001', Decimal('815.5400'), None, None, datetime.datetime(2025, 9, 4, 17, 0), None, None, datetime.datetime(2025, 9, 4, 17, 0), None, datetime.datetime(2025, 9, 4, 17, 0), None, 80501002, None, 1, None)
+
+[SQL 32]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI210402202507040001%' AND amount=1909.39 AND operate_date BETWEEN '2025-09-04 17:00:00' AND '2025-09-04 17:00:02' limit 50;
+结果条数: 1
+查询结果:
+(30727, '210402', 'Changan Cholula', 50091002, 50101002, 50111002, 'SGACI210402202507040001', Decimal('1909.3900'), None, None, datetime.datetime(2025, 9, 4, 17, 0, 1), None, None, datetime.datetime(2025, 9, 4, 17, 0, 1), None, datetime.datetime(2025, 9, 4, 17, 0, 1), None, 80501002, None, 1, None)
+
+[SQL 33]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI152606202507090001%' AND amount=6540.38 AND operate_date BETWEEN '2025-09-04 17:00:01' AND '2025-09-04 17:00:03' limit 50;
+结果条数: 1
+查询结果:
+(30729, '232601', 'Changan Guadalajara Del Sol', 50091002, 50101002, 50111002, 'SGACI152606202507090001', Decimal('6540.3800'), None, None, datetime.datetime(2025, 9, 4, 17, 0, 2), None, None, datetime.datetime(2025, 9, 4, 17, 0, 2), None, datetime.datetime(2025, 9, 4, 17, 0, 2), None, 80501002, None, 1, None)
+
+[SQL 34]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%2024CAMS10070002%' AND amount=1112.07 AND operate_date BETWEEN '2025-09-04 17:00:01' AND '2025-09-04 17:00:03' limit 50;
+结果条数: 1
+查询结果:
+(30731, '101701', 'Changan Durango', 50091002, 50101002, 50111002, '2024CAMS10070002', Decimal('1112.0700'), None, None, datetime.datetime(2025, 9, 4, 17, 0, 3), None, None, datetime.datetime(2025, 9, 4, 17, 0, 2), None, datetime.datetime(2025, 9, 4, 17, 0, 2), None, 80501002, None, 1, None)
+
+[SQL 35]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI291802202506140002%' AND amount=936.29 AND operate_date BETWEEN '2025-09-04 17:00:03' AND '2025-09-04 17:00:05' limit 50;
+结果条数: 1
+查询结果:
+(30736, '291801', 'Changan Xalapa', 50091002, 50101002, 50111002, 'SGACI291802202506140002', Decimal('936.2900'), None, None, datetime.datetime(2025, 9, 4, 17, 0, 4), None, None, datetime.datetime(2025, 9, 4, 17, 0, 4), None, datetime.datetime(2025, 9, 4, 17, 0, 4), None, 80501002, None, 1, None)
+
+[SQL 36]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI051105202506190001%' AND amount=284.67 AND operate_date BETWEEN '2025-09-04 17:00:05' AND '2025-09-04 17:00:07' limit 50;
+结果条数: 1
+查询结果:
+(30744, '051105', 'Changan Perinorte', 50091002, 50101002, 50111002, 'SGACI051105202506190001', Decimal('284.6700'), None, None, datetime.datetime(2025, 9, 4, 17, 0, 7), None, None, datetime.datetime(2025, 9, 4, 17, 0, 6), None, datetime.datetime(2025, 9, 4, 17, 0, 6), None, 80501002, None, 1, None)
+
+[SQL 37]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI210402202506260001%' AND amount=444.14 AND operate_date BETWEEN '2025-09-04 17:00:06' AND '2025-09-04 17:00:08' limit 50;
+结果条数: 1
+查询结果:
+(30746, '210402', 'Changan Cholula', 50091002, 50101002, 50111002, 'SGACI210402202506260001', Decimal('444.1400'), None, None, datetime.datetime(2025, 9, 4, 17, 0, 7), None, None, datetime.datetime(2025, 9, 4, 17, 0, 7), None, datetime.datetime(2025, 9, 4, 17, 0, 7), None, 80501002, None, 1, None)
+
+[SQL 38]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI010501202505160002%' AND amount=18184.25 AND operate_date BETWEEN '2025-09-04 17:00:08' AND '2025-09-04 17:00:10' limit 50;
+结果条数: 1
+查询结果:
+(30755, '010501', 'Changan Aguascalientes', 50091002, 50101002, 50111002, 'SGACI010501202505160002', Decimal('18184.2500'), None, None, datetime.datetime(2025, 9, 4, 17, 0, 10), None, None, datetime.datetime(2025, 9, 4, 17, 0, 9), None, datetime.datetime(2025, 9, 4, 17, 0, 9), None, 80501002, None, 1, None)
+
+[SQL 39]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI291303202505070011%' AND amount=2900.79 AND operate_date BETWEEN '2025-09-04 17:00:08' AND '2025-09-04 17:00:10' limit 50;
+结果条数: 1
+查询结果:
+(30756, '291303', 'Changan Mérida', 50091002, 50101002, 50111002, 'SGACI291303202505070011', Decimal('2900.7900'), None, None, datetime.datetime(2025, 9, 4, 17, 0, 10), None, None, datetime.datetime(2025, 9, 4, 17, 0, 9), None, datetime.datetime(2025, 9, 4, 17, 0, 9), None, 80501002, None, 1, None)
+
+[SQL 40]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI050301202503100001%' AND amount=364.99 AND operate_date BETWEEN '2025-09-04 17:00:09' AND '2025-09-04 17:00:11' limit 50;
+结果条数: 1
+查询结果:
+(30758, '050301', 'Changan Zaragoza', 50091002, 50101002, 50111002, 'SGACI050301202503100001', Decimal('364.9900'), None, None, datetime.datetime(2025, 9, 4, 17, 0, 11), None, None, datetime.datetime(2025, 9, 4, 17, 0, 10), None, datetime.datetime(2025, 9, 4, 17, 0, 10), None, 80501002, None, 1, None)
+
+[SQL 41]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI251502202503260001%' AND amount=5834.86 AND operate_date BETWEEN '2025-09-04 17:00:09' AND '2025-09-04 17:00:11' limit 50;
+结果条数: 1
+查询结果:
+(30759, '251502', 'Changan Hermosillo', 50091002, 50101002, 50111002, 'SGACI251502202503260001', Decimal('5834.8600'), None, None, datetime.datetime(2025, 9, 4, 17, 0, 11), None, None, datetime.datetime(2025, 9, 4, 17, 0, 10), None, datetime.datetime(2025, 9, 4, 17, 0, 10), None, 80501002, None, 1, None)
+
+[SQL 42]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI152303202506240001%' AND amount=56196.45 AND operate_date BETWEEN '2025-09-04 17:00:10' AND '2025-09-04 17:00:12' limit 50;
+结果条数: 1
+查询结果:
+(30761, '152303', 'Changan Guadalajara Bugambilias', 50091002, 50101002, 50111002, 'SGACI152303202506240001', Decimal('56196.4500'), None, None, datetime.datetime(2025, 9, 4, 17, 0, 11), None, None, datetime.datetime(2025, 9, 4, 17, 0, 11), None, datetime.datetime(2025, 9, 4, 17, 0, 11), None, 80501002, None, 1, None)
+
+[SQL 43]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI152606202506170004%' AND amount=7971.06 AND operate_date BETWEEN '2025-09-04 17:00:11' AND '2025-09-04 17:00:13' limit 50;
+结果条数: 1
+查询结果:
+(30764, '232601', 'Changan Guadalajara Del Sol', 50091002, 50101002, 50111002, 'SGACI152606202506170004', Decimal('7971.0600'), None, None, datetime.datetime(2025, 9, 4, 17, 0, 13), None, None, datetime.datetime(2025, 9, 4, 17, 0, 12), None, datetime.datetime(2025, 9, 4, 17, 0, 12), None, 80501002, None, 1, None)
+
+[SQL 44]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI291303202504030005%' AND amount=11122.47 AND operate_date BETWEEN '2025-09-04 17:00:12' AND '2025-09-04 17:00:14' limit 50;
+结果条数: 1
+查询结果:
+(30768, '291303', 'Changan Mérida', 50091002, 50101002, 50111002, 'SGACI291303202504030005', Decimal('11122.4700'), None, None, datetime.datetime(2025, 9, 4, 17, 0, 14), None, None, datetime.datetime(2025, 9, 4, 17, 0, 13), None, datetime.datetime(2025, 9, 4, 17, 0, 13), None, 80501002, None, 1, None)
+
+[SQL 45]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI261401202505050001%' AND amount=9070.0 AND operate_date BETWEEN '2025-09-04 17:00:13' AND '2025-09-04 17:00:15' limit 50;
+结果条数: 1
+查询结果:
+(30772, '261401', 'Changan Villahermosa', 50091002, 50101002, 50111002, 'SGACI261401202505050001', Decimal('9070.0000'), None, None, datetime.datetime(2025, 9, 4, 17, 0, 15), None, None, datetime.datetime(2025, 9, 4, 17, 0, 14), None, datetime.datetime(2025, 9, 4, 17, 0, 14), None, 80501002, None, 1, None)
+
+[SQL 46]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI192506202506040001%' AND amount=185.14 AND operate_date BETWEEN '2025-09-04 17:00:14' AND '2025-09-04 17:00:16' limit 50;
+结果条数: 1
+查询结果:
+(30773, '192505', 'Changan Monterrey Gonzalitos', 50091002, 50101002, 50111002, 'SGACI192506202506040001', Decimal('185.1400'), None, None, datetime.datetime(2025, 9, 4, 17, 0, 15), None, None, datetime.datetime(2025, 9, 4, 17, 0, 15), None, datetime.datetime(2025, 9, 4, 17, 0, 15), None, 80501002, None, 1, None)
+
+[SQL 47]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI111603202506240001%' AND amount=2878.68 AND operate_date BETWEEN '2025-09-04 17:00:14' AND '2025-09-04 17:00:16' limit 50;
+结果条数: 1
+查询结果:
+(30774, '111603', 'Changan Satélite', 50091002, 50101002, 50111002, 'SGACI111603202506240001', Decimal('2878.6800'), None, None, datetime.datetime(2025, 9, 4, 17, 0, 15), None, None, datetime.datetime(2025, 9, 4, 17, 0, 15), None, datetime.datetime(2025, 9, 4, 17, 0, 15), None, 80501002, None, 1, None)
+
+[SQL 48]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI092301202506050001%' AND amount=3401.25 AND operate_date BETWEEN '2025-09-04 17:00:14' AND '2025-09-04 17:00:16' limit 50;
+结果条数: 1
+查询结果:
+(30776, '152303', 'Changan Colima', 50091002, 50101002, 50111002, 'SGACI092301202506050001', Decimal('3401.2500'), None, None, datetime.datetime(2025, 9, 4, 17, 0, 16), None, None, datetime.datetime(2025, 9, 4, 17, 0, 15), None, datetime.datetime(2025, 9, 4, 17, 0, 15), None, 80501002, None, 1, None)
+
+[SQL 49]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI052208202506270001%' AND amount=2462.48 AND operate_date BETWEEN '2025-09-04 17:00:16' AND '2025-09-04 17:00:18' limit 50;
+结果条数: 1
+查询结果:
+(30780, '172202', 'Changan del Valle Picacho', 50091002, 50101002, 50111002, 'SGACI052208202506270001', Decimal('2462.4800'), None, None, datetime.datetime(2025, 9, 4, 17, 0, 17), None, None, datetime.datetime(2025, 9, 4, 17, 0, 17), None, datetime.datetime(2025, 9, 4, 17, 0, 17), None, 80501002, None, 1, None)
+
+[SQL 50]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI291303202504030005%' AND amount=12857.41 AND operate_date BETWEEN '2025-09-04 17:00:17' AND '2025-09-04 17:00:19' limit 50;
+结果条数: 1
+查询结果:
+(30788, '291303', 'Changan Mérida', 50091002, 50101002, 50111002, 'SGACI291303202504030005', Decimal('12857.4100'), None, None, datetime.datetime(2025, 9, 4, 17, 0, 19), None, None, datetime.datetime(2025, 9, 4, 17, 0, 18), None, datetime.datetime(2025, 9, 4, 17, 0, 18), None, 80501002, None, 1, None)
+
+[SQL 51]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI101701202503260003%' AND amount=3590.36 AND operate_date BETWEEN '2025-09-04 17:00:18' AND '2025-09-04 17:00:20' limit 50;
+结果条数: 1
+查询结果:
+(30790, '101701', 'Changan Durango', 50091002, 50101002, 50111002, 'SGACI101701202503260003', Decimal('3590.3600'), None, None, datetime.datetime(2025, 9, 4, 17, 0, 19), None, None, datetime.datetime(2025, 9, 4, 17, 0, 19), None, datetime.datetime(2025, 9, 4, 17, 0, 19), None, 80501002, None, 1, None)
+
+[SQL 52]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI113304202506230004%' AND amount=481.5 AND operate_date BETWEEN '2025-09-04 17:09:59' AND '2025-09-04 17:10:01' limit 50;
+结果条数: 1
+查询结果:
+(30799, '113304', 'Changan Tlalnepantla', 50091002, 50101002, 50111002, 'SGACI113304202506230004', Decimal('481.5000'), None, None, datetime.datetime(2025, 9, 4, 17, 10), None, None, datetime.datetime(2025, 9, 4, 17, 10), None, datetime.datetime(2025, 9, 4, 17, 10), None, 80501002, None, 1, None)
+
+[SQL 53]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI152606202506240001%' AND amount=7971.06 AND operate_date BETWEEN '2025-09-04 17:09:59' AND '2025-09-04 17:10:01' limit 50;
+结果条数: 1
+查询结果:
+(30800, '232601', 'Changan Guadalajara Del Sol', 50091002, 50101002, 50111002, 'SGACI152606202506240001', Decimal('7971.0600'), None, None, datetime.datetime(2025, 9, 4, 17, 10, 1), None, None, datetime.datetime(2025, 9, 4, 17, 10), None, datetime.datetime(2025, 9, 4, 17, 10), None, 80501002, None, 1, None)
+
+[SQL 54]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI092301202503180002%' AND amount=37.51 AND operate_date BETWEEN '2025-09-04 17:19:59' AND '2025-09-04 17:20:01' limit 50;
+结果条数: 1
+查询结果:
+(30807, '152303', 'Changan Colima', 50091002, 50101002, 50111002, 'SGACI092301202503180002', Decimal('37.5100'), None, None, datetime.datetime(2025, 9, 4, 17, 20), None, None, datetime.datetime(2025, 9, 4, 17, 20), None, datetime.datetime(2025, 9, 4, 17, 20), None, 80501002, None, 1, None)
+
+[SQL 55]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI261401202505290001%' AND amount=1266.22 AND operate_date BETWEEN '2025-09-04 17:19:59' AND '2025-09-04 17:20:01' limit 50;
+结果条数: 1
+查询结果:
+(30808, '261401', 'Changan Villahermosa', 50091002, 50101002, 50111002, 'SGACI261401202505290001', Decimal('1266.2200'), None, None, datetime.datetime(2025, 9, 4, 17, 20, 1), None, None, datetime.datetime(2025, 9, 4, 17, 20), None, datetime.datetime(2025, 9, 4, 17, 20), None, 80501002, None, 1, None)
+
+[SQL 56]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI291303202504070002%' AND amount=63.83 AND operate_date BETWEEN '2025-09-04 17:20:00' AND '2025-09-04 17:20:02' limit 50;
+结果条数: 1
+查询结果:
+(30810, '291303', 'Changan Mérida', 50091002, 50101002, 50111002, 'SGACI291303202504070002', Decimal('63.8300'), None, None, datetime.datetime(2025, 9, 4, 17, 20, 1), None, None, datetime.datetime(2025, 9, 4, 17, 20, 1), None, datetime.datetime(2025, 9, 4, 17, 20, 1), None, 80501002, None, 1, None)
+
+[SQL 57]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI022802202504010001%' AND amount=352.15 AND operate_date BETWEEN '2025-09-04 17:29:59' AND '2025-09-04 17:30:01' limit 50;
+结果条数: 1
+查询结果:
+(30820, '022802', 'Changan Tijuana', 50091002, 50101002, 50111002, 'SGACI022802202504010001', Decimal('352.1500'), None, None, datetime.datetime(2025, 9, 4, 17, 30), None, None, datetime.datetime(2025, 9, 4, 17, 30), None, datetime.datetime(2025, 9, 4, 17, 30), None, 80501002, None, 1, None)
+
+[SQL 58]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI291303202504240001%' AND amount=20391.32 AND operate_date BETWEEN '2025-09-04 17:29:59' AND '2025-09-04 17:30:01' limit 50;
+结果条数: 1
+查询结果:
+(30821, '291303', 'Changan Mérida', 50091002, 50101002, 50111002, 'SGACI291303202504240001', Decimal('20391.3200'), None, None, datetime.datetime(2025, 9, 4, 17, 30), None, None, datetime.datetime(2025, 9, 4, 17, 30), None, datetime.datetime(2025, 9, 4, 17, 30), None, 80501002, None, 1, None)
+
+[SQL 59]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI232601202506240001%' AND amount=3565.18 AND operate_date BETWEEN '2025-09-04 17:39:59' AND '2025-09-04 17:40:01' limit 50;
+结果条数: 1
+查询结果:
+(30842, '232601', 'Changan Cancún', 50091002, 50101002, 50111002, 'SGACI232601202506240001', Decimal('3565.1800'), None, None, datetime.datetime(2025, 9, 4, 17, 40), None, None, datetime.datetime(2025, 9, 4, 17, 40), None, datetime.datetime(2025, 9, 4, 17, 40), None, 80501002, None, 1, None)
+
+[SQL 60]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI261401202507020001%' AND amount=724.14 AND operate_date BETWEEN '2025-09-04 17:39:59' AND '2025-09-04 17:40:01' limit 50;
+结果条数: 1
+查询结果:
+(30843, '261401', 'Changan Villahermosa', 50091002, 50101002, 50111002, 'SGACI261401202507020001', Decimal('724.1400'), None, None, datetime.datetime(2025, 9, 4, 17, 40, 1), None, None, datetime.datetime(2025, 9, 4, 17, 40), None, datetime.datetime(2025, 9, 4, 17, 40), None, 80501002, None, 1, None)
+
+[SQL 61]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI291303202505150002%' AND amount=18405.78 AND operate_date BETWEEN '2025-09-06 10:20:00' AND '2025-09-06 10:20:02' limit 50;
+结果条数: 1
+查询结果:
+(30978, '291303', 'Changan Mérida', 50091002, 50101002, 50111002, 'SGACI291303202505150002', Decimal('18405.7800'), None, None, datetime.datetime(2025, 9, 6, 10, 20, 1), None, None, datetime.datetime(2025, 9, 6, 10, 20, 1), None, datetime.datetime(2025, 9, 6, 10, 20, 1), None, 80501002, None, 1, None)
+
+[SQL 62]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI291303202504140003%' AND amount=15478.05 AND operate_date BETWEEN '2025-09-06 10:20:00' AND '2025-09-06 10:20:02' limit 50;
+结果条数: 1
+查询结果:
+(30979, '291303', 'Changan Mérida', 50091002, 50101002, 50111002, 'SGACI291303202504140003', Decimal('15478.0500'), None, None, datetime.datetime(2025, 9, 6, 10, 20, 2), None, None, datetime.datetime(2025, 9, 6, 10, 20, 1), None, datetime.datetime(2025, 9, 6, 10, 20, 1), None, 80501002, None, 1, None)
+
+[SQL 63]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI210402202503070001%' AND amount=376.14 AND operate_date BETWEEN '2025-09-06 10:20:01' AND '2025-09-06 10:20:03' limit 50;
+结果条数: 1
+查询结果:
+(30981, '210402', 'Changan Cholula', 50091002, 50101002, 50111002, 'SGACI210402202503070001', Decimal('376.1400'), None, None, datetime.datetime(2025, 9, 6, 10, 20, 2), None, None, datetime.datetime(2025, 9, 6, 10, 20, 2), None, datetime.datetime(2025, 9, 6, 10, 20, 2), None, 80501002, None, 1, None)
+
+[SQL 64]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI062404202504280001%' AND amount=125.38 AND operate_date BETWEEN '2025-09-06 10:20:01' AND '2025-09-06 10:20:03' limit 50;
+结果条数: 1
+查询结果:
+(30982, '062404', 'Changan Tapachula', 50091002, 50101002, 50111002, 'SGACI062404202504280001', Decimal('125.3800'), None, None, datetime.datetime(2025, 9, 6, 10, 20, 2), None, None, datetime.datetime(2025, 9, 6, 10, 20, 2), None, datetime.datetime(2025, 9, 6, 10, 20, 2), None, 80501002, None, 1, None)
+
+[SQL 65]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI251502202506300001%' AND amount=185.14 AND operate_date BETWEEN '2025-09-06 10:20:01' AND '2025-09-06 10:20:03' limit 50;
+结果条数: 1
+查询结果:
+(30983, '251502', 'Changan Hermosillo', 50091002, 50101002, 50111002, 'SGACI251502202506300001', Decimal('185.1400'), None, None, datetime.datetime(2025, 9, 6, 10, 20, 3), None, None, datetime.datetime(2025, 9, 6, 10, 20, 2), None, datetime.datetime(2025, 9, 6, 10, 20, 2), None, 80501002, None, 1, None)
+
+[SQL 66]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI152606202504030002%' AND amount=1112.07 AND operate_date BETWEEN '2025-09-06 10:20:01' AND '2025-09-06 10:20:03' limit 50;
+结果条数: 1
+查询结果:
+(30984, '232601', 'Changan Guadalajara Del Sol', 50091002, 50101002, 50111002, 'SGACI152606202504030002', Decimal('1112.0700'), None, None, datetime.datetime(2025, 9, 6, 10, 20, 3), None, None, datetime.datetime(2025, 9, 6, 10, 20, 2), None, datetime.datetime(2025, 9, 6, 10, 20, 2), None, 80501002, None, 1, None)
+
+[SQL 67]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI250201202505120003%' AND amount=185.14 AND operate_date BETWEEN '2025-09-06 10:20:02' AND '2025-09-06 10:20:04' limit 50;
+结果条数: 1
+查询结果:
+(30985, '250201', 'Changan Mazatlán', 50091002, 50101002, 50111002, 'SGACI250201202505120003', Decimal('185.1400'), None, None, datetime.datetime(2025, 9, 6, 10, 20, 3), None, None, datetime.datetime(2025, 9, 6, 10, 20, 3), None, datetime.datetime(2025, 9, 6, 10, 20, 3), None, 80501002, None, 1, None)
+
+[SQL 68]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI050301202506190003%' AND amount=25337.34 AND operate_date BETWEEN '2025-09-06 10:20:02' AND '2025-09-06 10:20:04' limit 50;
+结果条数: 1
+查询结果:
+(30986, '050301', 'Changan Zaragoza', 50091002, 50101002, 50111002, 'SGACI050301202506190003', Decimal('25337.3400'), None, None, datetime.datetime(2025, 9, 6, 10, 20, 3), None, None, datetime.datetime(2025, 9, 6, 10, 20, 3), None, datetime.datetime(2025, 9, 6, 10, 20, 3), None, 80501002, None, 1, None)
+
+[SQL 69]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI261401202506090002%' AND amount=636.86 AND operate_date BETWEEN '2025-09-11 11:59:59' AND '2025-09-11 12:00:01' limit 50;
+结果条数: 1
+查询结果:
+(31662, '261401', 'Changan Villahermosa', 50091002, 50101002, 50111002, 'SGACI261401202506090002', Decimal('636.8600'), None, None, datetime.datetime(2025, 9, 11, 12, 0, 1), None, None, datetime.datetime(2025, 9, 11, 12, 0), None, datetime.datetime(2025, 9, 11, 12, 0), None, 80501002, None, 1, None)
+
+[SQL 70]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI291303202505150002%' AND amount=6661.56 AND operate_date BETWEEN '2025-09-11 12:00:01' AND '2025-09-11 12:00:03' limit 50;
+结果条数: 1
+查询结果:
+(31666, '291303', 'Changan Mérida', 50091002, 50101002, 50111002, 'SGACI291303202505150002', Decimal('6661.5600'), None, None, datetime.datetime(2025, 9, 11, 12, 0, 2), None, None, datetime.datetime(2025, 9, 11, 12, 0, 2), None, datetime.datetime(2025, 9, 11, 12, 0, 2), None, 80501002, None, 1, None)
+
+[SQL 71]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI291303202504250001%' AND amount=13371.15 AND operate_date BETWEEN '2025-09-11 12:00:02' AND '2025-09-11 12:00:04' limit 50;
+结果条数: 1
+查询结果:
+(31670, '291303', 'Changan Mérida', 50091002, 50101002, 50111002, 'SGACI291303202504250001', Decimal('13371.1500'), None, None, datetime.datetime(2025, 9, 11, 12, 0, 3), None, None, datetime.datetime(2025, 9, 11, 12, 0, 3), None, datetime.datetime(2025, 9, 11, 12, 0, 3), None, 80501002, None, 1, None)
+
+[SQL 72]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI191204202506250001%' AND amount=188.09 AND operate_date BETWEEN '2025-09-17 10:50:00' AND '2025-09-17 10:50:02' limit 50;
+结果条数: 1
+查询结果:
+(31990, '191201', 'Changan Monterrey Contry', 50091002, 50101002, 50111002, 'SGACI191204202506250001', Decimal('188.0900'), None, None, datetime.datetime(2025, 9, 17, 10, 50, 1), None, None, datetime.datetime(2025, 9, 17, 10, 50, 1), None, datetime.datetime(2025, 9, 17, 10, 50, 1), None, 80501002, None, 1, None)
+
+[SQL 73]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI191204202506230001%' AND amount=35931.96 AND operate_date BETWEEN '2025-09-22 16:39:59' AND '2025-09-22 16:40:01' limit 50;
+结果条数: 1
+查询结果:
+(32668, '191201', 'Changan Monterrey Contry', 50091002, 50101002, 50111002, 'SGACI191204202506230001', Decimal('35931.9600'), None, None, datetime.datetime(2025, 9, 22, 16, 40, 1), None, None, datetime.datetime(2025, 9, 22, 16, 40), None, datetime.datetime(2025, 9, 22, 16, 40), None, 80501002, None, 1, None)
+
+[SQL 74]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI210402202506260001%' AND amount=444.14 AND operate_date BETWEEN '2025-09-23 18:09:59' AND '2025-09-23 18:10:01' limit 50;
+结果条数: 1
+查询结果:
+(32764, '210402', 'Changan Cholula', 50091002, 50101002, 50111002, 'SGACI210402202506260001', Decimal('444.1400'), None, None, datetime.datetime(2025, 9, 23, 18, 10), None, None, datetime.datetime(2025, 9, 23, 18, 10), None, datetime.datetime(2025, 9, 23, 18, 10), None, 80501002, None, 1, None)
+
+[SQL 75]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI232601202505280003%' AND amount=9039.65 AND operate_date BETWEEN '2025-09-25 12:30:01' AND '2025-09-25 12:30:03' limit 50;
+结果条数: 1
+查询结果:
+(33013, '232601', 'Changan Cancún', 50091002, 50101002, 50111002, 'SGACI232601202505280003', Decimal('9039.6500'), None, None, datetime.datetime(2025, 9, 25, 12, 30, 3), None, None, datetime.datetime(2025, 9, 25, 12, 30, 2), None, datetime.datetime(2025, 9, 25, 12, 30, 2), None, 80501002, None, 1, None)
+
+[SQL 76]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI152606202506240001%' AND amount=7971.06 AND operate_date BETWEEN '2025-09-26 17:50:00' AND '2025-09-26 17:50:02' limit 50;
+结果条数: 1
+查询结果:
+(33404, '232601', 'Changan Guadalajara Del Sol', 50091002, 50101002, 50111002, 'SGACI152606202506240001', Decimal('7971.0600'), None, None, datetime.datetime(2025, 9, 26, 17, 50, 1), None, None, datetime.datetime(2025, 9, 26, 17, 50, 1), None, datetime.datetime(2025, 9, 26, 17, 50, 1), None, 80501002, None, 1, None)
+
+[SQL 77]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%GACI202429180112100001%' AND amount=1399.68 AND operate_date BETWEEN '2025-09-30 11:19:59' AND '2025-09-30 11:20:01' limit 50;
+结果条数: 1
+查询结果:
+(33829, '291801', 'Changan Veracruz', 50091002, 50101002, 50111002, 'GACI202429180112100001', Decimal('1399.6800'), None, None, datetime.datetime(2025, 9, 30, 11, 20), None, None, datetime.datetime(2025, 9, 30, 11, 20), None, datetime.datetime(2025, 9, 30, 11, 20), None, 80501002, None, 1, None)
+
+[SQL 78]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI210402202507030001%' AND amount=352.15 AND operate_date BETWEEN '2025-09-30 16:20:00' AND '2025-09-30 16:20:02' limit 50;
+结果条数: 1
+查询结果:
+(33888, '210402', 'Changan Cholula', 50091002, 50101002, 50111002, 'SGACI210402202507030001', Decimal('352.1500'), None, None, datetime.datetime(2025, 9, 30, 16, 20, 1), None, None, datetime.datetime(2025, 9, 30, 16, 20, 1), None, datetime.datetime(2025, 9, 30, 16, 20, 1), None, 80501002, None, 1, None)
+
+[SQL 79]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI291303202504030005%' AND amount=41.63 AND operate_date BETWEEN '2025-10-03 17:00:02' AND '2025-10-03 17:00:04' limit 50;
+结果条数: 1
+查询结果:
+(34834, '291303', 'Changan Mérida', 50091002, 50101002, 50111002, 'SGACI291303202504030005', Decimal('41.6300'), None, None, datetime.datetime(2025, 10, 3, 17, 0, 4), None, None, datetime.datetime(2025, 10, 3, 17, 0, 3), None, datetime.datetime(2025, 10, 3, 17, 0, 3), None, 80501002, None, 1, None)
+
+[SQL 80]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI210402202504280001%' AND amount=516.81 AND operate_date BETWEEN '2025-10-17 11:29:59' AND '2025-10-17 11:30:01' limit 50;
+结果条数: 1
+查询结果:
+(38320, '210402', 'Changan Cholula', 50091002, 50101002, 50111002, 'SGACI210402202504280001', Decimal('516.8100'), None, None, datetime.datetime(2025, 10, 17, 11, 30), None, None, datetime.datetime(2025, 10, 17, 11, 30), None, datetime.datetime(2025, 10, 17, 11, 30), None, 80501002, None, 1, None)
+
+[SQL 81]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI152303202506240001%' AND amount=5321.11 AND operate_date BETWEEN '2025-10-20 11:09:59' AND '2025-10-20 11:10:01' limit 50;
+结果条数: 1
+查询结果:
+(38574, '152303', 'Changan Guadalajara Bugambilias', 50091002, 50101002, 50111002, 'SGACI152303202506240001', Decimal('5321.1100'), None, None, datetime.datetime(2025, 10, 20, 11, 10, 1), None, None, datetime.datetime(2025, 10, 20, 11, 10), None, datetime.datetime(2025, 10, 20, 11, 10), None, 80501002, None, 1, None)
+
+[SQL 82]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI152606202507090001%' AND amount=327.49 AND operate_date BETWEEN '2025-10-28 13:00:07' AND '2025-10-28 13:00:09' limit 50;
+结果条数: 1
+查询结果:
+(39483, '232601', 'Changan Guadalajara Del Sol', 50091002, 50101002, 50111002, 'SGACI152606202507090001', Decimal('327.4900'), None, None, datetime.datetime(2025, 10, 28, 13, 0, 8), None, None, datetime.datetime(2025, 10, 28, 13, 0, 8), None, datetime.datetime(2025, 10, 28, 13, 0, 8), None, 80501002, None, 1, None)
+
+[SQL 83]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI232601202505280003%' AND amount=9039.65 AND operate_date BETWEEN '2025-10-28 13:00:17' AND '2025-10-28 13:00:19' limit 50;
+结果条数: 1
+查询结果:
+(39511, '232601', 'Changan Cancún', 50091002, 50101002, 50111002, 'SGACI232601202505280003', Decimal('9039.6500'), None, None, datetime.datetime(2025, 10, 28, 13, 0, 19), None, None, datetime.datetime(2025, 10, 28, 13, 0, 18), None, datetime.datetime(2025, 10, 28, 13, 0, 18), None, 80501002, None, 1, None)
+
+[SQL 84]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI113304202507080001%' AND amount=644.47 AND operate_date BETWEEN '2025-10-28 13:00:22' AND '2025-10-28 13:00:24' limit 50;
+结果条数: 1
+查询结果:
+(39527, '113304', 'Changan Tlalnepantla', 50091002, 50101002, 50111002, 'SGACI113304202507080001', Decimal('644.4700'), None, None, datetime.datetime(2025, 10, 28, 13, 0, 24), None, None, datetime.datetime(2025, 10, 28, 13, 0, 23), None, datetime.datetime(2025, 10, 28, 13, 0, 23), None, 80501002, None, 1, None)
+
+[SQL 85]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI261401202504280002%' AND amount=247.22 AND operate_date BETWEEN '2025-10-28 13:00:41' AND '2025-10-28 13:00:43' limit 50;
+结果条数: 1
+查询结果:
+(39585, '261401', 'Changan Villahermosa', 50091002, 50101002, 50111002, 'SGACI261401202504280002', Decimal('247.2200'), None, None, datetime.datetime(2025, 10, 28, 13, 0, 43), None, None, datetime.datetime(2025, 10, 28, 13, 0, 42), None, datetime.datetime(2025, 10, 28, 13, 0, 42), None, 80501002, None, 1, None)
+
+[SQL 86]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI250201202506190002%' AND amount=2027.78 AND operate_date BETWEEN '2025-10-28 13:00:42' AND '2025-10-28 13:00:44' limit 50;
+结果条数: 1
+查询结果:
+(39587, '250201', 'Changan Mazatlán', 50091002, 50101002, 50111002, 'SGACI250201202506190002', Decimal('2027.7800'), None, None, datetime.datetime(2025, 10, 28, 13, 0, 43), None, None, datetime.datetime(2025, 10, 28, 13, 0, 43), None, datetime.datetime(2025, 10, 28, 13, 0, 43), None, 80501002, None, 1, None)
+
+[SQL 87]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI232601202506240002%' AND amount=815.54 AND operate_date BETWEEN '2025-10-28 13:00:42' AND '2025-10-28 13:00:44' limit 50;
+结果条数: 1
+查询结果:
+(39589, '232601', 'Changan Cancún', 50091002, 50101002, 50111002, 'SGACI232601202506240002', Decimal('815.5400'), None, None, datetime.datetime(2025, 10, 28, 13, 0, 44), None, None, datetime.datetime(2025, 10, 28, 13, 0, 43), None, datetime.datetime(2025, 10, 28, 13, 0, 43), None, 80501002, None, 1, None)
+
+[SQL 88]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI192506202506110001%' AND amount=37126.89 AND operate_date BETWEEN '2025-10-28 13:10:00' AND '2025-10-28 13:10:02' limit 50;
+结果条数: 1
+查询结果:
+(39602, '192505', 'Changan Monterrey Gonzalitos', 50091002, 50101002, 50111002, 'SGACI192506202506110001', Decimal('37126.8900'), None, None, datetime.datetime(2025, 10, 28, 13, 10, 1), None, None, datetime.datetime(2025, 10, 28, 13, 10, 1), None, datetime.datetime(2025, 10, 28, 13, 10, 1), None, 80501002, None, 1, None)
+
+[SQL 89]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI291801202504080001%' AND amount=1230.99 AND operate_date BETWEEN '2025-10-28 13:10:02' AND '2025-10-28 13:10:04' limit 50;
+结果条数: 1
+查询结果:
+(39606, '291801', 'Changan Veracruz', 50091002, 50101002, 50111002, 'SGACI291801202504080001', Decimal('1230.9900'), None, None, datetime.datetime(2025, 10, 28, 13, 10, 3), None, None, datetime.datetime(2025, 10, 28, 13, 10, 3), None, datetime.datetime(2025, 10, 28, 13, 10, 3), None, 80501002, None, 1, None)
+
+[SQL 90]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI152606202504240005%' AND amount=1700.83 AND operate_date BETWEEN '2025-10-28 13:10:02' AND '2025-10-28 13:10:04' limit 50;
+结果条数: 1
+查询结果:
+(39607, '232601', 'Changan Guadalajara Del Sol', 50091002, 50101002, 50111002, 'SGACI152606202504240005', Decimal('1700.8300'), None, None, datetime.datetime(2025, 10, 28, 13, 10, 3), None, None, datetime.datetime(2025, 10, 28, 13, 10, 3), None, datetime.datetime(2025, 10, 28, 13, 10, 3), None, 80501002, None, 1, None)
+
+[SQL 91]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI250201202506250003%' AND amount=555.98 AND operate_date BETWEEN '2025-10-28 17:50:00' AND '2025-10-28 17:50:02' limit 50;
+结果条数: 1
+查询结果:
+(39686, '250201', 'Changan Mazatlán', 50091002, 50101002, 50111002, 'SGACI250201202506250003', Decimal('555.9800'), None, None, datetime.datetime(2025, 10, 28, 17, 50, 1), None, None, datetime.datetime(2025, 10, 28, 17, 50, 1), None, datetime.datetime(2025, 10, 28, 17, 50, 1), None, 80501002, None, 1, None)
+
+[SQL 92]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI261401202506170002%' AND amount=936.35 AND operate_date BETWEEN '2025-10-28 17:50:00' AND '2025-10-28 17:50:02' limit 50;
+结果条数: 1
+查询结果:
+(39687, '261401', 'Changan Villahermosa', 50091002, 50101002, 50111002, 'SGACI261401202506170002', Decimal('936.3500'), None, None, datetime.datetime(2025, 10, 28, 17, 50, 1), None, None, datetime.datetime(2025, 10, 28, 17, 50, 1), None, datetime.datetime(2025, 10, 28, 17, 50, 1), None, 80501002, None, 1, None)
+
+[SQL 93]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI210402202504280001%' AND amount=561.95 AND operate_date BETWEEN '2025-10-29 18:20:01' AND '2025-10-29 18:20:03' limit 50;
+结果条数: 1
+查询结果:
+(39801, '210402', 'Changan Cholula', 50091002, 50101002, 50111002, 'SGACI210402202504280001', Decimal('561.9500'), None, None, datetime.datetime(2025, 10, 29, 18, 20, 2), None, None, datetime.datetime(2025, 10, 29, 18, 20, 2), None, datetime.datetime(2025, 10, 29, 18, 20, 2), None, 80501002, None, 1, None)
+
+[SQL 94]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI232601202506240001%' AND amount=2394.53 AND operate_date BETWEEN '2025-10-30 15:30:01' AND '2025-10-30 15:30:03' limit 50;
+结果条数: 1
+查询结果:
+(39932, '232601', 'Changan Cancún', 50091002, 50101002, 50111002, 'SGACI232601202506240001', Decimal('2394.5300'), None, None, datetime.datetime(2025, 10, 30, 15, 30, 2), None, None, datetime.datetime(2025, 10, 30, 15, 30, 2), None, datetime.datetime(2025, 10, 30, 15, 30, 2), None, 80501002, None, 1, None)
+
+[SQL 95]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI261401202507020001%' AND amount=333.46 AND operate_date BETWEEN '2025-10-30 15:30:02' AND '2025-10-30 15:30:04' limit 50;
+结果条数: 1
+查询结果:
+(39936, '261401', 'Changan Villahermosa', 50091002, 50101002, 50111002, 'SGACI261401202507020001', Decimal('333.4600'), None, None, datetime.datetime(2025, 10, 30, 15, 30, 4), None, None, datetime.datetime(2025, 10, 30, 15, 30, 3), None, datetime.datetime(2025, 10, 30, 15, 30, 3), None, 80501002, None, 1, None)
+
+[SQL 96]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI232601202506240002%' AND amount=4088.3 AND operate_date BETWEEN '2025-10-30 15:49:59' AND '2025-10-30 15:50:01' limit 50;
+结果条数: 1
+查询结果:
+(40021, '232601', 'Changan Cancún', 50091002, 50101002, 50111002, 'SGACI232601202506240002', Decimal('4088.3000'), None, None, datetime.datetime(2025, 10, 30, 15, 50), None, None, datetime.datetime(2025, 10, 30, 15, 50), None, datetime.datetime(2025, 10, 30, 15, 50), None, 80501002, None, 1, None)
+
+[SQL 97]
+SELECT * FROM dms_retail.tt_capital_flow WHERE order_no like '%SGACI192506202506110001%' AND amount=617.56 AND operate_date BETWEEN '2025-11-10 16:09:59' AND '2025-11-10 16:10:01' limit 50;
+结果条数: 1
+查询结果:
+(42402, '192505', 'Changan Monterrey Gonzalitos', 50091002, 50101002, 50111002, 'SGACI192506202506110001', Decimal('617.5600'), None, None, datetime.datetime(2025, 11, 10, 16, 10), None, None, datetime.datetime(2025, 11, 10, 16, 10), None, datetime.datetime(2025, 11, 10, 16, 10), None, 80501002, None, 1, None)

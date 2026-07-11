@@ -57,7 +57,7 @@ kill_ws() {
 
 check_start() {
         local check_url=$1
-	local check_text=$2
+        local check_text=$2
         log_info "start check $ENV_NAME with url: $check_url"
         local count=0
         while true

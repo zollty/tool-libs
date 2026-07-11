@@ -1,0 +1,66 @@
+{
+  "word": "phrase",
+  "pos": "verb",
+  "phonetics": {
+    "br": "/freɪz/",
+    "am": "/freɪz/"
+  },
+  "word_family": [],
+  "senses": [
+    {
+      "grammar": "[transitive]",
+      "definition": "to say or write something in a particular way",
+      "definition_cn": "（以某种方式）表达，措辞，推敲",
+      "examples": [
+        {
+          "phrase": "phrase something (+ adv./prep.)",
+          "en": "a carefully phrased remark",
+          "cn": "措辞谨慎的话语"
+        },
+        {
+          "en": "I agree with what he says, but I'd have phrased it differently.",
+          "cn": "我赞同他说的，但我会以不同的方式表述。"
+        },
+        {
+          "en": "She phrased the explanation in very simple terms.",
+          "cn": "她用非常简单的词语来解释。"
+        },
+        {
+          "phrase": "phrase something as something",
+          "en": "Her order was phrased as a suggestion.",
+          "cn": "她的命令表述得像是一项建议。"
+        }
+      ],
+      "extra_examples": [
+        {
+          "en": "I should have phrased my question differently.",
+          "cn": "我本应该换一种方式来提出我的问题。"
+        },
+        {
+          "en": "The statement was very carefully phrased.",
+          "cn": "这份声明措辞非常谨慎。"
+        }
+      ],
+      "collocations": {
+        "adverb": [
+          "carefully",
+          "differently",
+          "beautifully",
+          "…"
+        ]
+      }
+    },
+    {
+      "grammar": "[intransitive, transitive]",
+      "phrase": "phrase (something)",
+      "definition": "to divide a piece of music into small groups of notes; to play or sing these in a particular way, especially in an effective way",
+      "definition_cn": "划分乐句，分乐节（尤指为奏乐或歌唱）",
+      "examples": [
+        {
+          "en": "The concerto's slow movement was beautifully phrased.",
+          "cn": "优美的乐句构成了协奏曲缓慢的韵律。"
+        }
+      ]
+    }
+  ]
+}

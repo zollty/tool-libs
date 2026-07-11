@@ -22,17 +22,17 @@
 
 echo "=== Start to deploy pom... ==="
 
-set   releasesRepoId=pre-nexus-releases
-set  releasesRepoUrl=http://10.2.10.22:8081/nexus/content/repositories/releases/
+set   releasesRepoId=diy-nexus-releases
+set  releasesRepoUrl=http://192.168.20.157:8520/repository/maven-releases/
 
-set  snapshotsRepoId=pre-nexus-snapshots
-set snapshotsRepoUrl=http://10.2.10.22:8081/nexus/content/repositories/snapshots/
+set  snapshotsRepoId=diy-nexus-snapshots
+set snapshotsRepoUrl=http://192.168.20.157:8520/nexus/content/repositories/snapshots/
 
-set base_dir=.
+set base_dir=D:/__SYNC2/git/jretty-pom
 
 :main
     rem 调用deployPom函数处理jar包
-	call :deployPom fast 1.0.0-SNAPSHOT com.fbank
+	call :deployPom jretty 21 org.jretty
     echo "=== deploy pom finished ... ==="
 	pause
 
@@ -52,5 +52,5 @@ set base_dir=.
       rem NOT FOUND
       set COMMAND=%COMMAND% -DrepositoryId=%releasesRepoId% -Durl=%releasesRepoUrl%
     )
-    call mvn %COMMAND%
+    call D:\__SYNC1\Softwares\apache-maven-3.6.3\bin\mvn %COMMAND% --settings=D:\__SYNC0\00WORK\ide-config\settings.xml
 	goto :eof

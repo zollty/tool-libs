@@ -1,0 +1,227 @@
+## 文件: hilo-framework/hilo-third/pom.xml
+   状态: M-修改
+   文件内容:
+@@ -9,22 +9,16 @@
+     <groupId>org.hilo.boot</groupId>
+     <artifactId>hilo</artifactId>
+     <version>1.0.4-SNAPSHOT</version>
++    <relativePath/>
+   </parent>
+
+   <properties>
+     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+-    <java.version>1.7</java.version>
+-    <maven.compiler.source>1.7</maven.compiler.source>
+-    <maven.compiler.target>1.7</maven.compiler.target>
+   </properties>
+
+   <dependencies>
+
+-    <!-- <dependency>
+-      <groupId>org.hilo.boot</groupId>
+-      <artifactId>jretty-core</artifactId>
+-    </dependency> -->
+     <dependency>
+       <groupId>org.jretty</groupId>
+       <artifactId>api-base</artifactId>
+
+
+## 文件: hilo-framework/hilo-web/pom.xml
+   状态: M-修改
+   文件内容:
+@@ -34,6 +34,11 @@
+       <groupId>org.hilo.boot</groupId>
+       <artifactId>hilo-logback</artifactId>
+     </dependency>
++
++    <!--<dependency>
++      <groupId>org.hilo.boot</groupId>
++      <artifactId>hilo-web-apilog</artifactId>
++    </dependency>-->
+
+     <dependency>
+       <groupId>org.springframework.boot</groupId>
+
+
+## 文件: hilo-framework/hilo-web/src/main/java/org/hilo/boot/app/component/GlobalControllerInterceptor.java
+   状态: M-修改
+   文件内容:
+@@ -1,16 +1,12 @@
+ package org.hilo.boot.app.component;
+
+-import java.util.Date;
+ import java.util.Locale;
+
+ import javax.servlet.http.HttpServletRequest;
+ import javax.servlet.http.HttpServletResponse;
+
+-import org.hilo.boot.core.UT;
+-import org.hilo.boot.core.web.HighestOrderWebFilter;
+-import org.hilo.boot.core.web.HttpServletRequestHelper;
+-import org.slf4j.Logger;
+-import org.slf4j.LoggerFactory;
++import org.hilo.boot.app.apilog.ApiLogTraceInterceptor;
++import org.springframework.beans.factory.annotation.Autowired;
+ import org.springframework.beans.factory.annotation.Value;
+ import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
+ import org.springframework.context.annotation.Configuration;
+@@ -61,15 +57,10 @@ import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
+ @Configuration("defaultControllerInterceptor")
+ @ConditionalOnProperty(name = "hilo.web.default-controller-interceptor", havingValue = "true", matchIfMissing = true)
+ public class GlobalControllerInterceptor extends HandlerInterceptorAdapter {
+-    @Value("${hilo.web.trace-request:}")
+-    private String[] traceRequest;
+-    private Logger reqLog;
+-    private Boolean trace;
+-    private boolean traceAll;
++    @Autowired
++    private ApiLogTraceInterceptor traceInterceptor;
+     @Value("${hilo.web.enable-i18n:false}")
+     private boolean enableI18n;
+-    @Value("${hilo.web.trace-request-body:false}")
+-    private boolean traceBody;
+
+     @Override
+     public boolean preHandle(HttpServletRequest request,
+@@ -90,79 +81,18 @@ public class GlobalControllerInterceptor extends HandlerInterceptorAdapter {
+             }
+         }
+
+-        if (getTrace()) {
+-            if (reqLog == null) {
+-                reqLog = LoggerFactory.getLogger("reqLog");
+-            }
+-            if (reqLog.isDebugEnabled()) {
+-                if (traceAll) {
+-                    logReqLog(request);
+-                } else {
+-                    String uri = request.getRequestURI();
+-                    for (String prefix : traceRequest) {
+-                        if (uri.startsWith(prefix)) {
+-                            logReqLog(request);
+-                            break;
+-                        }
+-                    }
+-                }
+-            }
+-        }
++        traceInterceptor.preHandle(request, response, handler);
+
+         return true;
+     }
+
+-    void logReqLog(HttpServletRequest request) {
+-        Object requestId = request.getAttribute(HighestOrderWebFilter.REQ_LOG_CONTEXT_ID);
+-        if (requestId != null) {
+-            secondLogBody(request);
+-        } else {
+-            firstLog(request);
+-        }
+-    }
+-
+-    void firstLog(HttpServletRequest request) {
+-        String requestId = UT.Date.getUniqueDatePatternTimeMillisNoSplit();
+-        request.setAttribute(HighestOrderWebFilter.REQ_LOG_CONTEXT_ID, requestId);
+-        reqLog.debug(HttpServletRequestHelper.getRequestInfo(request, traceBody,
+-                true, false, requestId));
+-    }
+-
+-    void secondLogBody(HttpServletRequest request) {
+-        if (traceBody || request.getContentLength() <= 0) {
+-            return;
+-        }
+-        StringBuilder sb = new StringBuilder(1024);
+-        sb.append("-----------------------").append(UT.Date.formatNowTime())
+-                .append("-------------------------------------\n");
+-        Object requestId = request.getAttribute(HighestOrderWebFilter.REQ_LOG_CONTEXT_ID);
+-        if (requestId != null) {
+-            sb.append("requestID  : ").append(requestId).append("\n");
+-        }
+-        sb.append("Body       : ").append(HttpServletRequestHelper.getBodyIfNecessary(request)).append("\n");
+-        reqLog.debug(sb.toString());
+-    }
+-
+-    public Boolean getTrace() {
+-        if (trace == null) {
+-            if (traceRequest.length == 0) {
+-                trace = false;
+-            } else {
+-                trace = true;
+-                if (traceRequest[0].equals("all") || traceRequest[0].equals("api")) {
+-                    traceAll = true;
+-                }
+-            }
+-        }
+-        return trace;
+-    }
+-
+     /**
+      * This implementation is empty.
+      */
+     @Override
+     public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler,
+             @Nullable ModelAndView modelAndView) throws Exception {
++        traceInterceptor.postHandle(request, response, handler, modelAndView);
+     }
+
+     /**
+@@ -171,6 +101,7 @@ public class GlobalControllerInterceptor extends HandlerInterceptorAdapter {
+     @Override
+     public void afterCompletion(HttpServletRequest request, HttpServletResponse response,
+             Object handler, @Nullable Exception ex) throws Exception {
++        traceInterceptor.afterCompletion(request, response, handler, ex);
+     }
+
+     /**
+
+
+
+## 文件: hilo-framework/hilo-web/src/main/java/org/hilo/boot/core/web/HighestOrderWebFilter.java
+   状态: M-修改
+   文件内容:
+@@ -7,6 +7,8 @@ import javax.servlet.ServletException;
+ import javax.servlet.http.HttpServletRequest;
+ import javax.servlet.http.HttpServletResponse;
+
++import org.hilo.boot.app.apilog.DefaultHttpLogService;
++import org.hilo.boot.app.apilog.HttpLogService;
+ import org.hilo.boot.core.UT;
+ import org.slf4j.Logger;
+ import org.slf4j.LoggerFactory;
+@@ -26,12 +28,17 @@ public class HighestOrderWebFilter extends OncePerRequestFilter implements Order
+     private int order = Ordered.HIGHEST_PRECEDENCE;
+     private boolean traceRequest;
+     private final Logger reqLog = LoggerFactory.getLogger("reqLog");
++    private DefaultHttpLogService logService;
+
+     @Override
+     public int getOrder() {
+         return this.order;
+     }
+
++    public void setLogService(DefaultHttpLogService logService) {
++        this.logService = logService;
++    }
++
+     /**
+      * Set the order for this filter.
+      * @param order the order to set
+@@ -74,7 +81,7 @@ public class HighestOrderWebFilter extends OncePerRequestFilter implements Order
+     public void setTraceRequest(boolean traceRequest) {
+         this.traceRequest = traceRequest;
+     }
+-
++
+     protected boolean shouldLog(HttpServletRequest request) {
+         return traceRequest && logger.isDebugEnabled();
+     }
+@@ -85,7 +92,7 @@ public class HighestOrderWebFilter extends OncePerRequestFilter implements Order
+     protected void beforeRequest(HttpServletRequest request) {
+         String requestId = UT.Date.getUniqueDatePatternTimeMillisNoSplit();
+         request.setAttribute(REQ_LOG_CONTEXT_ID, requestId);
+-        reqLog.debug(HttpServletRequestHelper.getRequestInfo(request, false, true, false, requestId));
++        logService.parseRequestInfo( request);
+     }
+
+     /**

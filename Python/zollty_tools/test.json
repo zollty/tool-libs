@@ -1,0 +1,83 @@
+[
+  {
+    "word": "inability",
+    "pos": "noun",
+    "oxford_levels": [
+      {
+        "dictionary": "ox5000",
+        "level": "c1"
+      }
+    ],
+    "phonetics": {
+      "am": "/ˌɪnəˈbɪləti/",
+      "am_audio": "inability__us_1.mp3"
+    },
+    "word_family": [
+      "able adjective (≠ unable)",
+      "ably adverb",
+      "ability noun (≠ inability)",
+      "disabled adjective",
+      "disability noun"
+    ],
+    "senses": [
+      {
+        "phrase": "inability (to do something)",
+        "definition": "the fact of not being able to do something",
+        "definition_cn": "无能；无力；不能",
+        "examples": [
+          {
+            "en": "the government’s inability to provide basic services",
+            "cn": "政府在提供基本服务方面的无能"
+          },
+          {
+            "en": "Some families go without medical treatment because of their inability to pay.",
+            "cn": "有些家庭因无力支付医疗费用而得不到医治。",
+            "am_audio": "_inability__uss_1.mp3"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "He has to overcome his inability to assert himself.",
+            "cn": "他必须克服不会坚持自己主张的缺点。"
+          },
+          {
+            "en": "Her outbursts reflected her inability to cope with the loss of her brother.",
+            "cn": "她的突然发脾气说明她无法应对失去兄弟这一事实。"
+          },
+          {
+            "en": "His experiences as a child explain his inability to sustain relationships.",
+            "cn": "他童年的经历可以解释他为何无法维持人际关系。"
+          },
+          {
+            "en": "She felt increasingly frustrated by her inability to demonstrate her ideas.",
+            "cn": "她因为无法表明自己的想法而越来越沮丧。"
+          },
+          {
+            "en": "She has an inability to control her rage.",
+            "cn": "她无法控制自己的愤怒。"
+          }
+        ],
+        "collocations": {
+          "adjective": [
+            "apparent",
+            "seeming",
+            "complete",
+            "…"
+          ],
+          "verb + inability": [
+            "have",
+            "be frustrated by",
+            "demonstrate",
+            "…"
+          ]
+        },
+        "opposite": [
+          {
+            "title": "ability",
+            "entry": "ability_1"
+          }
+        ]
+      }
+    ]
+  }
+]

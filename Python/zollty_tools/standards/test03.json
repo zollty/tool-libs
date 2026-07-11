@@ -1,0 +1,176 @@
+{
+  "word": "phrase",
+  "pos": "noun",
+  "oxford_levels": [
+    {
+      "dictionary": "ox3000",
+      "level": "a1"
+    }
+  ],
+  "phonetics": {
+    "br": "/freɪz/",
+    "am": "/freɪz/"
+  },
+  "word_family": [],
+  "senses": [
+    {
+      "oxford_levels": [
+        {
+          "dictionary": "ox3000",
+          "level": "a1"
+        }
+      ],
+      "definition": "a group of words that have a particular meaning when used together",
+      "definition_cn": "成语；习语；惯用法；警句",
+      "examples": [
+        {
+          "en": "a memorable/catchy phrase",
+          "cn": "令人难忘的/朗朗上口的短语"
+        },
+        {
+          "en": "‘Start slowly’ is the key phrase for the first-time marathon runner.",
+          "cn": "对初次参加马拉松比赛的运动员来说“开始阶段速度要慢”是至理名言。"
+        },
+        {
+          "en": "She was, in her own favourite phrase, ‘a woman without a past’.",
+          "cn": "用她自己最喜欢的字眼说，她是个 “没有不清白过去的女人”。"
+        },
+        {
+          "en": "colourful words and phrases",
+          "cn": "丰富多彩的单词和短语"
+        }
+      ],
+      "extra_examples": [
+        {
+          "en": "He just comes out with the same old stock phrases.",
+          "cn": "他总说那些老一套的陈词滥调。"
+        },
+        {
+          "en": "Her unfortunate choice of phrase offended most of the audience.",
+          "cn": "她不恰当的措辞惹恼了大多数观众。"
+        },
+        {
+          "en": "In 1998, he trademarked the phrase ‘Freedom of Expression’.",
+          "cn": "在 1998 年，他将词语“表达自由”注册为商标。"
+        }
+      ],
+      "collocations": {
+        "adjective": [
+          "colloquial",
+          "idiomatic",
+          "key",
+          "…"
+        ],
+        "verb + phrase": [
+          "employ",
+          "turn",
+          "use",
+          "…"
+        ],
+        "phrase + noun": [
+          "book"
+        ],
+        "preposition": [
+          "in a/the phrase"
+        ],
+        "phrases": [
+          "a choice of phrase",
+          "a turn of phrase"
+        ]
+      }
+    },
+    {
+      "oxford_levels": [
+        {
+          "dictionary": "ox3000",
+          "level": "a1"
+        }
+      ],
+      "labels": [
+        "(grammar语法)"
+      ],
+      "definition": "a small group of words (usually without a finite verb) that together have a particular meaning and that typically form part of a sentence. ‘the green car’ and ‘on Friday morning’ are phrases.",
+      "definition_cn": "短语；词组",
+      "examples": [
+        {
+          "en": "a two-word phrase",
+          "cn": "两个字的短语"
+        }
+      ],
+      "collocations": {
+        "adjective": [
+          "colloquial",
+          "idiomatic",
+          "key",
+          "…"
+        ],
+        "verb + phrase": [
+          "employ",
+          "turn",
+          "use",
+          "…"
+        ],
+        "phrase + noun": [
+          "book"
+        ],
+        "preposition": [
+          "in a/the phrase"
+        ],
+        "phrases": [
+          "a choice of phrase",
+          "a turn of phrase"
+        ]
+      }
+    },
+    {
+      "labels": [
+        "(music音乐)"
+      ],
+      "definition": "a short series of notes that form a unit within a longer passage in a piece of music",
+      "definition_cn": "乐句；乐节",
+      "examples": []
+    }
+  ],
+  "idioms": [
+    {
+      "phrase": "to coin a phrase",
+      "senses": [
+        {
+          "definition": "used to introduce a well-known expression that you have changed slightly in order to be funny",
+          "definition_cn": "（引出为逗趣而稍加改动的名言）",
+          "examples": [
+            {
+              "en": "Tasting is believing, to coin a phrase! (= the usual phrase is ‘seeing is believing’).",
+              "cn": "品尝就是相信，铸造一句话！(=常用短语是“眼见为实”)。"
+            }
+          ]
+        },
+        {
+          "definition": "used to show that you are aware that you are using an expression that is not new",
+          "definition_cn": "套用一句老话；用老话来说",
+          "examples": [
+            {
+              "en": "Oh well, no news is good news, to coin a phrase.",
+              "cn": "噢，常言道，没有消息就是好消息。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "phrase": "a turn of phrase",
+      "senses": [
+        {
+          "definition": "a particular way of describing something",
+          "definition_cn": "措辞；表达方式；描述方式",
+          "examples": [
+            {
+              "en": "He is meticulous in his choice of words and turns of phrase.",
+              "cn": "他措辞谨慎，描述细致。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
