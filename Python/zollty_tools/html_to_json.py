@@ -247,6 +247,11 @@ def parse_sense_li(sense_li):
     # 先解析头部信息
     sense = parse_sense_header(sense_li)
 
+    # 解析 sense id
+    sense_id = sense_li.get('id')
+    if sense_id:
+        sense['id'] = sense_id
+
     # 解析 topic
     sense_topics = _parse_topics(sense_li)
     if sense_topics:
@@ -332,6 +337,13 @@ def _parse_single_entry(entry_soup):
     soup = entry_soup
 
     result = {}
+
+    # 0. entry id（从 <div class="entry" id="..."> 提取）
+    entry_div = soup.find('div', class_='entry')
+    if entry_div:
+        entry_id = entry_div.get('id')
+        if entry_id:
+            result['id'] = entry_id
 
     # 1. 单词 (headword)
     headword_tag = soup.find('h1', class_='headword')

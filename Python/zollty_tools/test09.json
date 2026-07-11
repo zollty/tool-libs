@@ -1,5 +1,6 @@
 [
   {
+    "id": "advertisement",
     "word": "advertisement",
     "pos": "noun",
     "oxford_levels": [
@@ -28,6 +29,7 @@
         "grammar": "[countable]",
         "definition": "a notice, picture or film telling people about a product, job or service",
         "definition_cn": "广告；启事",
+        "id": "advertisement_sng_1",
         "topics": [
           "@topic_tv-radio-and-news_level=a2",
           "@topic_business_level=a2"
@@ -99,6 +101,7 @@
         "phrase": "advertisement for something",
         "definition": "an example of something that shows its good qualities",
         "definition_cn": "广告（样）品",
+        "id": "advertisement_sng_2",
         "examples": [
           {
             "en": "Dirty streets and homelessness are no advertisement for a prosperous society.",
@@ -115,6 +118,7 @@
         "grammar": "[uncountable]",
         "definition": "the act of advertising something and making it public",
         "definition_cn": "广告活动；广告宣传",
+        "id": "advertisement_sng_3",
         "examples": [
           {
             "en": "We are employing an assistant to help with the advertisement of the group’s activities.",
