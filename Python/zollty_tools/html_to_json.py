@@ -439,26 +439,33 @@ def parse_oald_html(html_content):
 if __name__ == '__main__':
     import sys
     import os
+    import glob
 
-    # 默认处理 test.html
-    input_file = 'test.html'
-    print(f"处理文件: {input_file}")
+    # 如果没有参数，默认处理 test.html
     if len(sys.argv) > 1:
-        input_file = sys.argv[1]
+        input_pattern = sys.argv[1]
+        input_files = glob.glob(input_pattern)
+        if not input_files:
+            print(f"没有匹配到文件: {input_pattern}")
+            sys.exit(1)
+    else:
+        input_files = ['test.html']
 
-    if not os.path.exists(input_file):
-        print(f"文件不存在: {input_file}")
-        sys.exit(1)
+    for input_file in input_files:
+        print(f"\n处理文件: {input_file}")
 
-    with open(input_file, 'r', encoding='utf-8') as f:
-        html_content = f.read()
+        if not os.path.exists(input_file):
+            print(f"文件不存在: {input_file}")
+            continue
 
-    result = parse_oald_html(html_content)
+        with open(input_file, 'r', encoding='utf-8') as f:
+            html_content = f.read()
 
-    # 输出JSONP
-    output_file = os.path.splitext(input_file)[0] + '.json'
-    with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(result, f, ensure_ascii=False, indent=2)
+        result = parse_oald_html(html_content)
 
-    print(f"转换完成，结果已保存到: {output_file}")
-    print(json.dumps(result, ensure_ascii=False, indent=2))
+        # 输出JSONP
+        output_file = os.path.splitext(input_file)[0] + '.json'
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(result, f, ensure_ascii=False, indent=2)
+
+        print(f"转换完成，结果已保存到: {output_file}")
