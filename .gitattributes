@@ -5,6 +5,7 @@
 *.txt text eol=lf
 *.js  text eol=lf
 *.py  text eol=lf
+*.js  text eol=json
 
 # 对于 Windows 批处理等必须用 CRLF 的文件，单独指定
 *.bat text eol=crlf
