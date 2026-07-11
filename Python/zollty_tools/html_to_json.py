@@ -1,6 +1,8 @@
 import json
+import os
 import re
 from bs4 import BeautifulSoup
+from synonyms_parser import parse_synonyms_from_sense, reset_counter
 
 
 # xrefs 中 xt 属性到 JSON key 的映射
@@ -242,7 +244,7 @@ def parse_sense_header(sense_li):
     return header
 
 
-def parse_sense_li(sense_li):
+def parse_sense_li(sense_li, output_dir=None):
     """解析单个 sense li 元素"""
     # 先解析头部信息
     sense = parse_sense_header(sense_li)
@@ -324,6 +326,14 @@ def parse_sense_li(sense_li):
     if collocations:
         sense['collocations'] = collocations
 
+    # Synonyms box
+    synonyms_titles = parse_synonyms_from_sense(sense_li, clean_text, output_dir)
+    if synonyms_titles:
+        if len(synonyms_titles) == 1:
+            sense['synonyms'] = synonyms_titles[0]
+        else:
+            sense['synonyms'] = synonyms_titles
+
     # xrefs (see_also, related_noun, opposite, compare, synonym)
     xrefs_result = _parse_xrefs(sense_li)
     if xrefs_result:
@@ -332,7 +342,7 @@ def parse_sense_li(sense_li):
     return sense
 
 
-def _parse_single_entry(entry_soup):
+def _parse_single_entry(entry_soup, output_dir=None):
     """解析单个OALD entry为结构化JSON"""
     soup = entry_soup
 
@@ -425,7 +435,7 @@ def _parse_single_entry(entry_soup):
     else:
         sense_lis = soup.find_all('li', class_='sense')
     for sense_li in sense_lis:
-        senses.append(parse_sense_li(sense_li))
+        senses.append(parse_sense_li(sense_li, output_dir=output_dir))
 
     # 检查是否有 sense 包含 topic
     has_sense_topic = any('topics' in s for s in senses)
@@ -481,7 +491,7 @@ def _parse_single_entry(entry_soup):
             idiom_ol = idm_g.find('ol', class_=['senses_multiple', 'sense_single'])
             if idiom_ol:
                 for sense_li in idiom_ol.find_all('li', class_='sense'):
-                    idiom_senses.append(parse_sense_li(sense_li))
+                    idiom_senses.append(parse_sense_li(sense_li, output_dir=output_dir))
             if idiom_senses:
                 idiom['senses'] = idiom_senses
             if idiom:
@@ -492,13 +502,15 @@ def _parse_single_entry(entry_soup):
     return result
 
 
-def parse_oald_html(html_content):
+def parse_oald_html(html_content, output_dir=None):
     """解析OALD HTML词典卡片为结构化JSON，支持多entry"""
+    reset_counter()
+
     soup = BeautifulSoup(html_content, 'html.parser')
 
     result = []
     for entry_div in soup.find_all('div', id='entryContent'):
-        entry = _parse_single_entry(entry_div)
+        entry = _parse_single_entry(entry_div, output_dir=output_dir)
         result.append(entry)
 
     return result
@@ -506,7 +518,6 @@ def parse_oald_html(html_content):
 
 if __name__ == '__main__':
     import sys
-    import os
     import glob
 
     # 如果没有参数，默认处理 test.html
@@ -529,10 +540,12 @@ if __name__ == '__main__':
         with open(input_file, 'r', encoding='utf-8') as f:
             html_content = f.read()
 
-        result = parse_oald_html(html_content)
-
         # 输出JSONP
         output_file = os.path.splitext(input_file)[0] + '.json'
+        output_dir = os.path.dirname(os.path.abspath(output_file))
+
+        result = parse_oald_html(html_content, output_dir=output_dir)
+
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(result, f, ensure_ascii=False, indent=2)
 

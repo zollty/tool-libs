@@ -1,0 +1,85 @@
+{
+  "title": "advertisement",
+  "synonyms": [
+    "publicity",
+    "ad",
+    "commercial",
+    "promotion",
+    "trailer"
+  ],
+  "description": "These are all words for a notice, picture or film telling people about a product, job or service.",
+  "definitions": [
+    {
+      "term": "advertisement",
+      "definition": "a notice, picture or film telling people about a product, job or service; an example of something that shows its good qualities; the act of advertising something and making it public:",
+      "examples": [
+        {
+          "en": "They ran advertisements on TV and on social media.",
+          "cn": "他们在电视和社交媒体上投放广告。"
+        },
+        {
+          "en": "Dirty streets are no advertisement for a prosperous society.",
+          "cn": "肮脏的街道绝不是繁荣社会的景象。"
+        }
+      ]
+    },
+    {
+      "term": "publicity",
+      "definition": "[U] the business of attracting the attention of the public to somebody/something such as a company, book, film, film star or product; the things that are done to attract attention:",
+      "examples": [
+        {
+          "en": "She works in publicity.",
+          "cn": "她从事宣传工作。"
+        },
+        {
+          "en": "There has been a lot of advance publicity for her new film.",
+          "cn": "她的新电影尚未上映即大加宣传。"
+        }
+      ]
+    },
+    {
+      "term": "ad, advert",
+      "definition": "(informal) a notice, picture or film telling people about a product, job or service:",
+      "examples": [
+        {
+          "en": "We put an ad on that website.",
+          "cn": "我们在那个网站上登了一则广告。"
+        },
+        {
+          "en": "an ad for a new chocolate bar",
+          "cn": "新品种巧克力棒的广告"
+        }
+      ]
+    },
+    {
+      "term": "commercial",
+      "definition": "an advertisement on television or on the radio.",
+      "definition_cn": "指电视或电台播放的广告"
+    },
+    {
+      "term": "promotion",
+      "definition": "a set of advertisements for a particular product or service; activities done in order to increase the sales of a product or service:",
+      "examples": [
+        {
+          "en": "a special promotion of local products",
+          "cn": "当地产品的特别促销活动"
+        },
+        {
+          "en": "She works in sales and promotion.",
+          "cn": "她从事销售和推广工作。"
+        }
+      ]
+    },
+    {
+      "term": "trailer",
+      "definition": "a series of short scenes from a film or television programme, shown in advance to advertise it.",
+      "labels": "(especially British English)"
+    }
+  ],
+  "patterns": [
+    "(a/an) advertisement/publicity/ad/commercial/promotion/trailer for something",
+    "a TV/television/radio/cinema advertisement/ad/commercial/promotion",
+    "an online/internet advertisement/ad/commercial/promotion",
+    "to run/show a(n) advertisement/ad/commercial/trailer"
+  ]
+}
