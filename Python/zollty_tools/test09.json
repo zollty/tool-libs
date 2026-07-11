@@ -28,6 +28,10 @@
         "grammar": "[countable]",
         "definition": "a notice, picture or film telling people about a product, job or service",
         "definition_cn": "广告；启事",
+        "topics": [
+          "@topic_tv-radio-and-news_level=a2",
+          "@topic_business_level=a2"
+        ],
         "examples": [
           {
             "en": "a newspaper/television advertisement",

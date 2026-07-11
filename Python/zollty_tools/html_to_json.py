@@ -56,6 +56,18 @@ def _parse_xrefs(soup):
     return xrefs_result
 
 
+def _parse_topics(element):
+    """解析 element 中的 topic，返回 topic 列表（href 中 entry:// 之后的部分）"""
+    topics = []
+    for topic_g in element.find_all('span', class_='topic-g'):
+        for a_tag in topic_g.find_all('a', class_='Ref'):
+            href = a_tag.get('href', '')
+            match = re.match(r'entry://(.+)', href)
+            if match:
+                topics.append(match.group(1))
+    return topics
+
+
 def _extract_phrase_cn(element):
     """从 element 中移除 <dis-gT> 中文翻译标签，返回 (clean_text, phrase_cn)"""
     import copy
@@ -235,6 +247,11 @@ def parse_sense_li(sense_li):
     # 先解析头部信息
     sense = parse_sense_header(sense_li)
 
+    # 解析 topic
+    sense_topics = _parse_topics(sense_li)
+    if sense_topics:
+        sense['topics'] = sense_topics
+
     # 例句 (examples)
     examples = []
     examples_ul = sense_li.find('ul', class_='examples')
@@ -397,6 +414,15 @@ def _parse_single_entry(entry_soup):
         sense_lis = soup.find_all('li', class_='sense')
     for sense_li in sense_lis:
         senses.append(parse_sense_li(sense_li))
+
+    # 检查是否有 sense 包含 topic
+    has_sense_topic = any('topics' in s for s in senses)
+
+    # 如果没有 sense 有 topic，但 entry 有 topic，放到 word 级别
+    if not has_sense_topic:
+        entry_topics = _parse_topics(soup)
+        if entry_topics:
+            result['topics'] = entry_topics
 
     result['senses'] = senses
 
