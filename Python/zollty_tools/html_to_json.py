@@ -146,6 +146,9 @@ def parse_sense_header(sense_li):
                 variants_tag.decompose()
         for exclude in st_copy.find_all(['deft', 'adt', 'o10']):
             exclude.decompose()
+        # 排除 dis-g 中的 wrap 括号
+        for exclude in st_copy.find_all('span', class_='wrap'):
+            exclude.decompose()
         phrase_text, phrase_cn = _extract_phrase_cn(st_copy)
         if phrase_text:
             header['phrase'] = phrase_text

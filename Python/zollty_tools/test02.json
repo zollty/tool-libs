@@ -2,6 +2,9 @@
   {
     "word": "novel",
     "pos": "adjective",
+    "labels": [
+      "(often approving)"
+    ],
     "oxford_levels": [
       {
         "dictionary": "ox5000",
