@@ -347,6 +347,58 @@ def parse_sense_li(sense_li, output_dir=None):
     if collocations:
         sense['collocations'] = collocations
 
+    # Language Bank
+    langbank_unbox = sense_li.find('span', unbox='langbank')
+    if langbank_unbox:
+        import copy
+        langbank_data = {}
+        body = langbank_unbox.find('span', class_='body')
+        if body:
+            # 提取标题（包含 unboxT 的 span.unbox）
+            for unbox_tag in body.find_all('span', class_='unbox'):
+                unboxT = unbox_tag.find('unboxt')
+                if unboxT:
+                    # 英文标题：移除 unboxT 后剩余的文本
+                    unbox_copy = copy.copy(unbox_tag)
+                    unboxT_in_copy = unbox_copy.find('unboxt')
+                    if unboxT_in_copy:
+                        unboxT_in_copy.decompose()
+                    langbank_data['title'] = clean_text(unbox_copy.get_text())
+                    # 中文标题
+                    chn_tag = unboxT.find('chn')
+                    if chn_tag:
+                        langbank_data['title_cn'] = clean_text(chn_tag.get_text())
+                    break
+
+            # 提取例句
+            examples = []
+            for ex_ul in body.find_all('ul', class_='examples'):
+                for ex_li in ex_ul.find_all('li', recursive=False):
+                    ex = {}
+                    # 英文例句
+                    unx = ex_li.find('span', class_='unx')
+                    if unx:
+                        ex['en'] = clean_text(unx.get_text())
+                    # 中文翻译（支持 ot/at/xt 标签）
+                    for tag_name in ['ot', 'at', 'xt']:
+                        t_tag = ex_li.find(tag_name)
+                        if t_tag:
+                            chn_tag = t_tag.find('chn')
+                            if chn_tag:
+                                other = chn_tag.find('other')
+                                if other:
+                                    ex['cn'] = clean_text(other.get_text())
+                                else:
+                                    ex['cn'] = clean_text(chn_tag.get_text())
+                                break
+                    if ex:
+                        examples.append(ex)
+            if examples:
+                langbank_data['examples'] = examples
+
+        if langbank_data:
+            sense['langbank'] = langbank_data
+
     # Synonyms box
     synonyms_titles = parse_synonyms_from_sense(sense_li, clean_text, output_dir)
     if synonyms_titles:
@@ -359,6 +411,13 @@ def parse_sense_li(sense_li, output_dir=None):
     xrefs_result = _parse_xrefs(sense_li)
     if xrefs_result:
         sense.update(xrefs_result)
+
+    # 图片 (big_pic)
+    big_pic_div = sense_li.find('div', class_='big_pic')
+    if big_pic_div:
+        img_tag = big_pic_div.find('img')
+        if img_tag and img_tag.get('src'):
+            sense['image'] = img_tag.get('src')
 
     return sense
 

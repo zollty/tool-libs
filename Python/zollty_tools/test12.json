@@ -1,0 +1,564 @@
+[
+  {
+    "id": "about_1",
+    "word": "about",
+    "pos": "preposition",
+    "oxford_levels": [
+      {
+        "dictionary": "ox3000",
+        "level": "a1"
+      },
+      {
+        "dictionary": "ox3000",
+        "level": "b1"
+      }
+    ],
+    "phonetics": {
+      "am": "/əˈbaʊt/",
+      "am_audio": "about__us_1.mp3"
+    },
+    "word_family": [],
+    "topics": [
+      "@topic_suggestions-and-advice_level=a1"
+    ],
+    "senses": [
+      {
+        "oxford_levels": [
+          {
+            "dictionary": "ox3000",
+            "level": "a1"
+          }
+        ],
+        "definition": "on the subject of somebody/something; in connection with somebody/something",
+        "definition_cn": "关于；对于",
+        "id": "about_sng_9",
+        "examples": [
+          {
+            "en": "a book about flowers",
+            "cn": "一本关于花卉的书"
+          },
+          {
+            "en": "Tell me all about it.",
+            "cn": "把情况全部告诉我。",
+            "am_audio": "_about__uss_5.mp3"
+          },
+          {
+            "en": "What's she so angry about?",
+            "cn": "她为什么生这么大的气？",
+            "am_audio": "_about__uss_13.mp3"
+          },
+          {
+            "en": "There's something strange about him.",
+            "cn": "他有点怪。",
+            "am_audio": "_about__ams_15.mp3"
+          },
+          {
+            "en": "There's something about this business that is not quite right.",
+            "cn": "这个行业有些地方不太对劲。"
+          },
+          {
+            "en": "I don't know what you're on about (= talking about).",
+            "cn": "我不懂你在谈什么。",
+            "am_audio": "_about__ams_16.mp3"
+          },
+          {
+            "en": "There's nothing you can do about it now.",
+            "cn": "现在你对此毫无办法。",
+            "am_audio": "_about__ams_17.mp3"
+          }
+        ],
+        "langbank": {
+          "title": "Saying what a text is about",
+          "title_cn": "描述文章的内容",
+          "examples": [
+            {
+              "en": "The book is about homeless people in the cities.",
+              "cn": "这本书写的是城市中无家可归的人们。"
+            },
+            {
+              "en": "The report deals with the issue of homelessness in London.",
+              "cn": "这篇报道是关于伦敦的无家可归问题。"
+            },
+            {
+              "en": "The writer discusses the problems faced by homeless people.",
+              "cn": "作者讨论了无家可归者面临的种种问题。"
+            },
+            {
+              "en": "The article presents an overview of the issues surrounding homelessness.",
+              "cn": "这篇文章概述了有关无家可归的种种问题。"
+            },
+            {
+              "en": "The novel explores the theme of friendship among homeless people.",
+              "cn": "这部小说探究了无家可归者之间的友谊这个主题。"
+            },
+            {
+              "en": "The first chapter examines the relationship between homelessness and drug addiction.",
+              "cn": "第一章考察了无家可归与吸毒成瘾之间的关系。"
+            },
+            {
+              "en": "The paper considers the question of why so many young people become homeless.",
+              "cn": "这篇论文论述了为何如此多的年轻人变得无家可归的问题。"
+            }
+          ]
+        }
+      },
+      {
+        "oxford_levels": [
+          {
+            "dictionary": "ox3000",
+            "level": "b1"
+          }
+        ],
+        "definition": "used to describe the purpose or an aspect of something",
+        "definition_cn": "目的是；为了；涉及…方面",
+        "id": "about_sng_10",
+        "examples": [
+          {
+            "en": "Movies are all about making money these days.",
+            "cn": "当今电影只顾赚钱。",
+            "am_audio": "_about__uss_6.mp3"
+          },
+          {
+            "en": "What was all that about? (= what was the reason for what has just happened?)",
+            "cn": "这到底是怎么回事？",
+            "am_audio": "_about__uss_14.mp3"
+          }
+        ]
+      },
+      {
+        "definition": "busy with something; doing something",
+        "definition_cn": "忙于；从事于",
+        "id": "about_sng_11",
+        "examples": [
+          {
+            "en": "Everywhere people were going about their daily business.",
+            "cn": "无论哪里，人们都在忙着干日常工作。",
+            "am_audio": "_about__uss_7.mp3"
+          },
+          {
+            "en": "And while you’re about it… (= while you’re doing that)",
+            "cn": "在你干这件事的同时，顺便…"
+          }
+        ]
+      },
+      {
+        "labels": [
+          "(especially British English)"
+        ],
+        "definition": "in many directions in a place; here and there",
+        "definition_cn": "在…到处；在…各处",
+        "id": "about_sng_12",
+        "examples": [
+          {
+            "en": "We wandered about the town for an hour or so.",
+            "cn": "我们在城里到处游逛了一个小时左右。",
+            "am_audio": "_about__uss_15.mp3"
+          },
+          {
+            "en": "He looked about the room.",
+            "cn": "他在房间里四下看了看。",
+            "am_audio": "_about__ams_18.mp3"
+          }
+        ]
+      },
+      {
+        "labels": [
+          "(especially British English)"
+        ],
+        "definition": "in various parts of a place; here and there",
+        "definition_cn": "在…四处",
+        "id": "about_sng_13",
+        "examples": [
+          {
+            "en": "The papers were strewn about the room.",
+            "cn": "房间里四处乱扔着文件。",
+            "am_audio": "_about__ams_19.mp3"
+          }
+        ]
+      },
+      {
+        "labels": [
+          "(especially British English)"
+        ],
+        "definition": "next to a place or person; in the area mentioned",
+        "definition_cn": "在…附近；在…地方",
+        "id": "about_sng_14",
+        "examples": [
+          {
+            "en": "She's somewhere about the office.",
+            "cn": "她在办公室附近。",
+            "am_audio": "_about__ams_20.mp3"
+          }
+        ]
+      },
+      {
+        "labels": [
+          "(literary)"
+        ],
+        "definition": "surrounding somebody/something",
+        "definition_cn": "围绕",
+        "id": "about_sng_15",
+        "examples": [
+          {
+            "en": "She wore a shawl about her shoulders.",
+            "cn": "她披了一件披肩。",
+            "am_audio": "_about__ams_21.mp3"
+          }
+        ]
+      }
+    ],
+    "idioms": [
+      {
+        "phrase": "how/what about…?",
+        "labels": "(especially North American English)",
+        "senses": [
+          {
+            "oxford_levels": [
+              {
+                "dictionary": "ox3000",
+                "level": "a1"
+              }
+            ],
+            "definition": "used when asking for information about somebody/something",
+            "definition_cn": "（询问消息）怎么样，如何",
+            "id": "about_sng_16",
+            "examples": [
+              {
+                "en": "How about Ruth? Have you heard from her?",
+                "cn": "露丝怎么样了？你有她的消息吗？",
+                "am_audio": "_about__uss_8.mp3"
+              },
+              {
+                "en": "I'm having fish. What about you?",
+                "cn": "我吃鱼，你呢？",
+                "am_audio": "_about__uss_16.mp3"
+              }
+            ]
+          },
+          {
+            "oxford_levels": [
+              {
+                "dictionary": "ox3000",
+                "level": "a1"
+              }
+            ],
+            "labels": [
+              "(especially North American English)"
+            ],
+            "definition": "used to make a suggestion",
+            "definition_cn": "（提建议时说）怎么样，好吗",
+            "id": "about_sng_17",
+            "topics": [
+              "@topic_suggestions-and-advice_level=a1"
+            ],
+            "examples": [
+              {
+                "en": "How about going for a walk?",
+                "cn": "去散散步怎么样？",
+                "am_audio": "_about__uss_9.mp3"
+              },
+              {
+                "en": "How about we go for a walk?",
+                "cn": "我们去散散步怎么样？",
+                "am_audio": "_about__uss_17.mp3"
+              },
+              {
+                "en": "What about a break?",
+                "cn": "休息一下如何？",
+                "am_audio": "_about__ams_22.mp3"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "about_2",
+    "word": "about",
+    "pos": "adverb",
+    "oxford_levels": [
+      {
+        "dictionary": "ox3000",
+        "level": "a1"
+      }
+    ],
+    "phonetics": {
+      "am": "/əˈbaʊt/",
+      "am_audio": "about__us_1.mp3"
+    },
+    "word_family": [],
+    "senses": [
+      {
+        "oxford_levels": [
+          {
+            "dictionary": "ox3000",
+            "level": "a1"
+          }
+        ],
+        "definition": "a little more or less than; a little before or after",
+        "definition_cn": "大约；左右",
+        "id": "about_sng_1",
+        "examples": [
+          {
+            "en": "It costs about $10.",
+            "cn": "这大约要花 10 美元。",
+            "am_audio": "_about__uss_1.mp3"
+          },
+          {
+            "en": "They waited (for) about an hour.",
+            "cn": "他们等了一小时左右。"
+          },
+          {
+            "en": "He arrived (at) about ten.",
+            "cn": "他是十点钟左右到的。"
+          }
+        ],
+        "synonym": [
+          {
+            "title": "approximately",
+            "entry": "approximately"
+          }
+        ]
+      },
+      {
+        "definition": "nearly; very close to",
+        "definition_cn": "将近；几乎",
+        "id": "about_sng_2",
+        "examples": [
+          {
+            "en": "I'm just about ready.",
+            "cn": "我就要准备好了。",
+            "am_audio": "_about__uss_2.mp3"
+          },
+          {
+            "en": "This is about the best we can hope for.",
+            "cn": "这差不多是我们所能希望的最好结果。",
+            "am_audio": "_about__uss_11.mp3"
+          }
+        ]
+      },
+      {
+        "labels": [
+          "(especially British English)"
+        ],
+        "definition": "in many directions; here and there",
+        "definition_cn": "到处；处处；各处",
+        "id": "about_sng_3",
+        "examples": [
+          {
+            "en": "The children were rushing about in the garden.",
+            "cn": "孩子们在花园里跑来跑去。",
+            "am_audio": "_about__uss_3.mp3"
+          }
+        ]
+      },
+      {
+        "labels": [
+          "(especially British English)"
+        ],
+        "definition": "in no particular order; in various places",
+        "definition_cn": "凌乱地；四处；到处",
+        "id": "about_sng_4",
+        "examples": [
+          {
+            "en": "Her books were lying about on the floor.",
+            "cn": "她的书在地板上东一本西一本地放着。",
+            "am_audio": "_about__uss_4.mp3"
+          }
+        ]
+      },
+      {
+        "labels": [
+          "(especially British English)"
+        ],
+        "definition": "doing nothing in particular",
+        "definition_cn": "闲着；无所事事",
+        "id": "about_sng_5",
+        "examples": [
+          {
+            "en": "People were standing about in the road.",
+            "cn": "人们在路上闲站着。",
+            "am_audio": "_about__uss_12.mp3"
+          }
+        ]
+      },
+      {
+        "labels": [
+          "(especially British English)"
+        ],
+        "definition": "able to be found in a place",
+        "definition_cn": "在某地；附近；周围",
+        "id": "about_sng_6",
+        "examples": [
+          {
+            "en": "There was nobody about.",
+            "cn": "附近没有人。",
+            "am_audio": "_about__ams_11.mp3"
+          },
+          {
+            "en": "There's a lot of flu about.",
+            "cn": "这一带流感肆虐。",
+            "am_audio": "_about__ams_12.mp3"
+          },
+          {
+            "en": "She’s somewhere about—I saw her a few minutes ago.",
+            "cn": "她在附近——几分钟前我见过她。"
+          }
+        ]
+      },
+      {
+        "labels": [
+          "(specialist or formal)"
+        ],
+        "definition": "facing the opposite direction",
+        "definition_cn": "向后转；掉转方向；掉头",
+        "id": "about_sng_7",
+        "examples": [
+          {
+            "en": "He brought the ship about.",
+            "cn": "他掉转船头。",
+            "am_audio": "_about__ams_13.mp3"
+          }
+        ]
+      }
+    ],
+    "idioms": [
+      {
+        "phrase": "just about",
+        "labels": "(informal)",
+        "senses": [
+          {
+            "definition": "almost; very nearly",
+            "definition_cn": "几乎；近乎；差不多",
+            "id": "just_sng_33",
+            "examples": [
+              {
+                "en": "I've met just about everyone.",
+                "cn": "我几乎每个人都见到了。",
+                "am_audio": "_just__uss_10.mp3"
+              },
+              {
+                "en": "‘Did you reach your sales target?’ ‘Just about.’",
+                "cn": "“你的销售目标达到了吗？”“差不多了。”",
+                "am_audio": "_just__uss_25.mp3"
+              }
+            ]
+          },
+          {
+            "definition": "approximately",
+            "definition_cn": "大概；大约",
+            "id": "just_sng_34",
+            "examples": [
+              {
+                "en": "She should be arriving just about now.",
+                "cn": "她现在该到了。",
+                "am_audio": "_just__uss_11.mp3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "out and about",
+        "senses": [
+          {
+            "definition": "able to go outside again after an illness",
+            "definition_cn": "病愈后能外出走动",
+            "id": "out_sng_42",
+            "examples": []
+          },
+          {
+            "definition": "travelling around a place",
+            "definition_cn": "遍游某地",
+            "id": "out_sng_43",
+            "examples": [
+              {
+                "en": "We've been out and about talking to people all over the country.",
+                "cn": "我们游遍了全国，和各地的人交谈。",
+                "am_audio": "_out__ams_48.mp3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "that’s about all | that’s about it",
+        "senses": [
+          {
+            "definition": "used to say that you have finished telling somebody about something and there is nothing to add",
+            "definition_cn": "我要说的就是这些；我的话完了",
+            "id": "about_sng_8",
+            "examples": [
+              {
+                "en": "‘Anything else?’ ‘No, that's about it for now.’",
+                "cn": "“还有什么要说的吗？”“没有了，现在我要说的就是这些。”",
+                "am_audio": "_about__ams_14.mp3"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "about_3",
+    "word": "about",
+    "pos": "adjective",
+    "phonetics": {
+      "am": "/əˈbaʊt/",
+      "am_audio": "about__us_1.mp3"
+    },
+    "word_family": [],
+    "senses": [
+      {
+        "definition": "to be close to doing something; to be going to do something very soon",
+        "definition_cn": "即将，行将，正要（做某事）",
+        "id": "about_sng_18",
+        "examples": [
+          {
+            "en": "I was just about to ask you the same thing.",
+            "cn": "我刚才正要问你同一件事情。",
+            "am_audio": "_about__uss_10.mp3"
+          }
+        ]
+      }
+    ],
+    "idioms": [
+      {
+        "phrase": "be about to do something",
+        "senses": [
+          {
+            "definition": "to be close to doing something; to be going to do something very soon",
+            "definition_cn": "即将，行将，正要（做某事）",
+            "id": "about_sng_18",
+            "examples": [
+              {
+                "en": "I was just about to ask you the same thing.",
+                "cn": "我刚才正要问你同一件事情。",
+                "am_audio": "_about__uss_10.mp3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "be not about to do something",
+        "senses": [
+          {
+            "definition": "to not be willing to do something; to not intend to do something",
+            "definition_cn": "不愿，无意（做某事）",
+            "id": "about_sng_19",
+            "examples": [
+              {
+                "en": "I've never done any cooking and I'm not about to start now.",
+                "cn": "我从来没有做过饭，也不想从现在开始做起来。",
+                "am_audio": "_about__uss_18.mp3"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

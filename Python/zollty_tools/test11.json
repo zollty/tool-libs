@@ -1,0 +1,408 @@
+[
+  {
+    "id": "further_1",
+    "word": "further",
+    "pos": "adjective",
+    "oxford_levels": [
+      {
+        "dictionary": "ox3000",
+        "level": "a2"
+      }
+    ],
+    "phonetics": {
+      "am": "/ˈfɜːrðər/",
+      "am_audio": "further__us_2.mp3"
+    },
+    "word_family": [],
+    "senses": [
+      {
+        "definition": "more; additional",
+        "definition_cn": "更多的；更进一步的；附加的",
+        "id": "further_sng_9",
+        "examples": [
+          {
+            "en": "Cook for a further 2 minutes.",
+            "cn": "再煮两分钟。",
+            "am_audio": "_further__uss_4.mp3"
+          },
+          {
+            "en": "For further details call this number.",
+            "cn": "欲知详情，请拨打这个电话号码。",
+            "am_audio": "_further__ams_13.mp3"
+          },
+          {
+            "en": "Can you give me any further information?",
+            "cn": "你能给我进一步的信息吗？"
+          },
+          {
+            "en": "further investigation/research/study/analysis",
+            "cn": "进一步的调查/研究/研究/分析"
+          },
+          {
+            "en": "This week provided further evidence of an unfolding global energy crisis.",
+            "cn": "本周进一步证明了全球能源危机正在蔓延。"
+          },
+          {
+            "en": "No further developments have been reported.",
+            "cn": "没有进一步的发展报告。"
+          },
+          {
+            "en": "We have decided to take no further action.",
+            "cn": "我们决定不采取进一步行动。",
+            "am_audio": "_further__ams_14.mp3"
+          },
+          {
+            "en": "The museum is closed until further notice (= until we say that it is open again).",
+            "cn": "博物馆现在闭馆，开馆时间另行通知。",
+            "am_audio": "_further__ams_15.mp3"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "After further discussion a decision was reached."
+          },
+          {
+            "en": "Do you have any further questions?"
+          },
+          {
+            "en": "This performance offers yet further proof that she is one of the great musicians of this generation."
+          },
+          {
+            "en": "We cannot afford any further delay."
+          }
+        ],
+        "langbank": {
+          "title": "Adding another item",
+          "title_cn": "补充说明",
+          "examples": [
+            {
+              "en": "Bilingual children do better in IQ tests than children who speak only one language. In addition/What is more, they seem to find it easier to learn third or even fourth languages.",
+              "cn": "讲两种语言的儿童比只讲一种语言的儿童智商测试得分更高。此外／而且，讲两种语言的儿童似乎在学习第三种甚至第四种语言时觉得更容易。"
+            },
+            {
+              "en": "Learning another language not only improves children’s job prospects in later life, but also boosts their self-esteem.",
+              "cn": "学习另一种语言不仅可以提升儿童未来的职业前景，而且可以增强他们的自尊心。"
+            },
+            {
+              "en": "Teaching children a second language improves their job prospects in later life. Other benefits include increased self-esteem and greater tolerance of other cultures.",
+              "cn": "教儿童第二语言可以提升他们未来的职业前景。此外，还可以使他们获得更强的自尊心、对其他文化更包容。"
+            },
+            {
+              "en": "Another/One further/One additional reason for encouraging bilingual education is that it boosts children’s self-esteem.",
+              "cn": "另一个鼓励双语教育的原因是它能增强儿童的自尊心。"
+            },
+            {
+              "en": "Studies suggest that bilingual children find it easier to learn additional languages. There is, moreover, increasing evidence that bilingual children perform better across a range of school subjects, not just foreign languages.",
+              "cn": "研究表明，讲两种语言的儿童学习其他语言觉得更容易。此外，越来越多的证据表明，讲两种语言的儿童不仅在外语学习上，同时在其他各门学科的学习上都表现得更好。"
+            },
+            {
+              "en": "His claim that children find bilingual education confusing is based on very little evidence. Moreover, the evidence he does provide is seriously flawed.",
+              "cn": "他认为双语教育会使儿童感到迷惑的说法几乎是没有依据的。况且，他仅有的证据也是有严重缺陷的。"
+            },
+            {
+              "en": "Research has shown that first-language development is not impeded by exposure to a second language. Furthermore, there is no evidence to support the claim that children find bilingual education confusing.",
+              "cn": "研究已经表明，接触第二语言不会妨碍第一语言的发展。而且，没有证据支持双语教育使儿童感到迷惑这种说法。"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "further_2",
+    "word": "further",
+    "pos": "adverb",
+    "oxford_levels": [
+      {
+        "dictionary": "ox3000",
+        "level": "b1"
+      },
+      {
+        "dictionary": "ox3000",
+        "level": "b2"
+      }
+    ],
+    "phonetics": {
+      "am": "/ˈfɜːrðər/",
+      "am_audio": "further__us_2.mp3"
+    },
+    "word_family": [],
+    "senses": [
+      {
+        "oxford_levels": [
+          {
+            "dictionary": "ox3000",
+            "level": "b1"
+          }
+        ],
+        "labels": [
+          "(especially British English)"
+        ],
+        "definition": "at or to a greater distance",
+        "definition_cn": "（空间距离）较远，更远",
+        "id": "further_sng_1",
+        "examples": [
+          {
+            "en": "We had walked a bit further than I had realized.",
+            "cn": "我们走得比我想象的要远一点。"
+          },
+          {
+            "en": "I'm too tired to go any further.",
+            "cn": "我太累了，再也走不动了。"
+          },
+          {
+            "en": "further north/south/east/west",
+            "cn": "再往北/南/东/西"
+          },
+          {
+            "en": "Two miles further on we came to a small town.",
+            "cn": "我们又走了两英里，来到了一座小镇。",
+            "am_audio": "_further__uss_6.mp3"
+          },
+          {
+            "en": "The hospital is further down the road.",
+            "cn": "沿这条路走下去就是医院。",
+            "am_audio": "_further__ams_6.mp3"
+          },
+          {
+            "en": "Can you stand a bit further away?",
+            "cn": "你能不能站远一点？",
+            "am_audio": "_further__ams_7.mp3"
+          }
+        ],
+        "synonym": [
+          {
+            "title": "farther",
+            "entry": "farther_2"
+          }
+        ]
+      },
+      {
+        "oxford_levels": [
+          {
+            "dictionary": "ox3000",
+            "level": "b2"
+          }
+        ],
+        "definition": "a longer way in the past or the future",
+        "definition_cn": "（过去或未来）较远，更久远",
+        "id": "further_sng_2",
+        "examples": [
+          {
+            "en": "Think further back into your childhood.",
+            "cn": "再往前回想你的童年。",
+            "am_audio": "_further__uss_2.mp3"
+          },
+          {
+            "en": "How will the company be doing ten years further on?",
+            "cn": "十年以后公司的情况将如何呢？",
+            "am_audio": "_further__uss_7.mp3"
+          }
+        ]
+      },
+      {
+        "oxford_levels": [
+          {
+            "dictionary": "ox3000",
+            "level": "b2"
+          }
+        ],
+        "definition": "to a greater degree or extent",
+        "definition_cn": "进一步；在更大程度上；在更大范围内",
+        "id": "further_sng_3",
+        "examples": [
+          {
+            "en": "to develop/increase/enhance/improve something further",
+            "cn": "进一步发展/增加/提高/改进某物"
+          },
+          {
+            "en": "to strengthen/support something further",
+            "cn": "进一步加强/支持某事"
+          },
+          {
+            "en": "Costs must be further reduced.",
+            "cn": "成本必须进一步降低。"
+          },
+          {
+            "en": "The police decided to investigate further.",
+            "cn": "警方决定作进一步调查。",
+            "am_audio": "_further__uss_3.mp3"
+          },
+          {
+            "en": "My life is further complicated by having to work such long hours.",
+            "cn": "我得工作这么长的时间，因此生活中的麻烦事就更多了。",
+            "am_audio": "_further__uss_8.mp3"
+          },
+          {
+            "en": "She was getting further and further into debt.",
+            "cn": "她负债越来越多。"
+          },
+          {
+            "en": "Nothing could be further from the truth.",
+            "cn": "绝不是那回事。",
+            "am_audio": "_further__ams_8.mp3"
+          },
+          {
+            "en": "Their share price fell further today.",
+            "cn": "他们的股价今天进一步下跌。"
+          }
+        ]
+      },
+      {
+        "labels": [
+          "(formal)"
+        ],
+        "definition": "in addition to what has just been said",
+        "definition_cn": "此外；而且",
+        "id": "further_sng_4",
+        "examples": [
+          {
+            "en": "Further, it is important to consider the cost of repairs.",
+            "cn": "此外，重要的是要考虑修理费用。",
+            "am_audio": "_further__ams_9.mp3"
+          }
+        ],
+        "synonym": [
+          {
+            "title": "furthermore",
+            "entry": "furthermore"
+          }
+        ]
+      }
+    ],
+    "idioms": [
+      {
+        "phrase": "far/farther/further afield",
+        "senses": [
+          {
+            "definition": "far away from home; to or in places that are not near",
+            "definition_cn": "远离家乡；去远处；在远方",
+            "id": "further_sng_11",
+            "examples": [
+              {
+                "en": "You can hire a car if you want to explore further afield.",
+                "cn": "假如你想逛更远的地方，可以租辆汽车。",
+                "am_audio": "_afield__uss_1.mp3"
+              },
+              {
+                "en": "Journalists came from as far afield as China.",
+                "cn": "新闻记者有的来自遥远的中国。",
+                "am_audio": "_afield__uss_2.mp3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "go further",
+        "senses": [
+          {
+            "definition": "to say more about something, or make a more extreme point about it",
+            "definition_cn": "进一步说；提出更极端的意见",
+            "id": "further_sng_5",
+            "examples": [
+              {
+                "en": "I would go even further and suggest that the entire government is corrupt.",
+                "cn": "我甚至进而想要说，整个政府都是腐败的。",
+                "am_audio": "_further__ams_10.mp3"
+              }
+            ]
+          },
+          {
+            "definition": "to last longer; to serve more people",
+            "definition_cn": "更经久；为更多人服务",
+            "id": "further_sng_6",
+            "examples": [
+              {
+                "en": "They watered down the soup to make it go further.",
+                "cn": "他们往汤里掺水，好让更多的人喝。",
+                "am_audio": "_further__ams_11.mp3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "go no further | not go any further",
+        "senses": [
+          {
+            "definition": "if you tell somebody that a secret will go no further, you promise not to tell it to anyone else",
+            "definition_cn": "到此为止；不再传下去",
+            "id": "further_sng_7",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "phrase": "look no further",
+        "senses": [
+          {
+            "definition": "used to say that something is exactly what somebody needs and so they do not need to consider any other options",
+            "definition_cn": "更多的；更进一步的；附加的",
+            "id": "look_sng_63",
+            "examples": [
+              {
+                "en": "Those looking for an enjoyable evening need look no further than the hotel's nightclub.",
+                "cn": "那些寻找愉快夜晚的人只需看看酒店的夜总会。"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phrase": "take something further",
+        "senses": [
+          {
+            "definition": "to take more serious action about something or speak to somebody at a higher level about it",
+            "definition_cn": "采取进一步行动；把…向上级反映",
+            "id": "further_sng_8",
+            "examples": [
+              {
+                "en": "I am not satisfied with your explanation and intend to take the matter further.",
+                "cn": "我对你的解释不满意，打算进一步探讨这个问题。",
+                "am_audio": "_further__ams_12.mp3"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "further_3",
+    "word": "further",
+    "pos": "verb",
+    "phonetics": {
+      "am": "/ˈfɜːrðər/",
+      "am_audio": "further__us_2.mp3"
+    },
+    "word_family": [],
+    "senses": [
+      {
+        "phrase": "further something",
+        "definition": "to help something to develop or be successful",
+        "definition_cn": "促进；增进",
+        "id": "further_sng_10",
+        "topics": [
+          "@topic_success_level=c1"
+        ],
+        "examples": [
+          {
+            "en": "They hoped the new venture would further the cause of cultural cooperation in Europe.",
+            "cn": "他们希望这个新项目将促进欧洲文化合作事业。",
+            "am_audio": "_further__uss_5.mp3"
+          },
+          {
+            "en": "She took the new job to further her career.",
+            "cn": "她接受了这个新工作以进一步发展她的事业。",
+            "am_audio": "_further__uss_10.mp3"
+          },
+          {
+            "en": "We are committed to furthering the interests of our members.",
+            "cn": "我们承诺要增进成员的利益。"
+          }
+        ]
+      }
+    ]
+  }
+]

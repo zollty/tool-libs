@@ -1,0 +1,56 @@
+[
+  {
+    "id": "abseil_1",
+    "word": "abseil",
+    "pos": "noun",
+    "labels": [
+      "(British English)",
+      "North American English"
+    ],
+    "phonetics": {
+      "am": "/ˈæbseɪl/",
+      "am_audio": "abseil__us_1.mp3"
+    },
+    "word_family": [],
+    "senses": [
+      {
+        "phrase": "enlarge image",
+        "definition": "an act of going down a steep cliff or rock while attached to a rope, pushing against the slope or rock with your feet",
+        "definition_cn": "绕绳下降（用绳缠绕着身体，双脚蹬陡坡或峭壁自己放绳下滑）",
+        "id": "abseil_sng_1",
+        "topics": [
+          "@topic_sports-other-sports_level=c2"
+        ],
+        "examples": []
+      }
+    ]
+  },
+  {
+    "id": "abseil_2",
+    "word": "abseil",
+    "pos": "verb",
+    "grammar": "[intransitive]",
+    "labels": [
+      "(British English)",
+      "North American English"
+    ],
+    "phonetics": {
+      "am": "/ˈæbseɪl/",
+      "am_audio": "abseil__us_1.mp3"
+    },
+    "word_family": [],
+    "senses": [
+      {
+        "phrase": "enlarge image abseil (down, off, etc. something)",
+        "definition": "to go down a steep cliff or rock while attached to a rope, pushing against the slope or rock with your feet",
+        "definition_cn": "绕绳下降（用绳缠绕着身体，双脚蹬陡坡或峭壁自己放绳下滑）",
+        "id": "abseil_sng_2",
+        "topics": [
+          "@topic_sports-other-sports_level=c2"
+        ],
+        "examples": [],
+        "image": "extremesports_comp.png"
+      }
+    ]
+  }
+]
